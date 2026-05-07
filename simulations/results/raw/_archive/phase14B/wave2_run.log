@@ -1,0 +1,95 @@
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+
+=== Wave 2 REFINE  SNR=0.95, n=1000, M=50 ===
+    [REG_KPV_super] n=1000
+  [DONE] REG_KPV_super_M50
+      bse_ref=0.4960  cov=0.960  SER=1.061  [26s]
+    [DRK_KPV_super] n=1000
+  [DONE] DRK_KPV_super_M50
+      bse_ref=0.4715  cov=0.920  SER=0.998  [63s]
+    [BIN_e250_L50] n=1000
+  [DONE] BIN_e250_L50_M50
+      bse_ref=0.1622  cov=0.940  SER=0.940  [68s]
+    [BIN_e260_L50] n=1000
+  [DONE] BIN_e260_L50_M50
+      bse_ref=0.1869  cov=0.920  SER=0.940  [66s]
+    [BIN_e285_L50] n=1000
+  [DONE] BIN_e285_L50_M50
+      bse_ref=0.0167  cov=0.940  SER=0.941  [66s]
+    [BIN_e300_L50] n=1000
+  [DONE] BIN_e300_L50_M50
+      bse_ref=0.0407  cov=0.960  SER=0.934  [66s]
+    [BIN_e275_L55] n=1000
+  [DONE] BIN_e275_L55_M50
+      bse_ref=0.1077  cov=0.960  SER=0.936  [67s]
+    [BIN_e275_L60] n=1000
+  [DONE] BIN_e275_L60_M50
+      bse_ref=0.1777  cov=0.960  SER=0.939  [67s]
+    [BIN_e275_L50_ec200] n=1000
+  [DONE] BIN_e275_L50_ec200_M50
+      bse_ref=0.0121  cov=0.960  SER=0.941  [66s]
+    [BIN_e275_L50_ec350] n=1000
+  [DONE] BIN_e275_L50_ec350_M50
+      bse_ref=0.0501  cov=0.940  SER=0.937  [67s]
+    [BIN_e275_L50_ec450] n=1000
+  [DONE] BIN_e275_L50_ec450_M50
+      bse_ref=0.1087  cov=0.920  SER=0.910  [66s]
+    [BIN_e180_L35_bk] n=1000
+  [DONE] BIN_e180_L35_bk_M50
+      bse_ref=0.1693  cov=0.940  SER=0.921  [64s]
+    [BIN_e220_L35_bk] n=1000
+  [DONE] BIN_e220_L35_bk_M50
+      bse_ref=0.4255  cov=0.960  SER=0.936  [64s]
+    [BIN_e200_L40_bk] n=1000
+  [DONE] BIN_e200_L40_bk_M50
+      bse_ref=0.2843  cov=0.900  SER=0.926  [66s]
+    [BIN_e200_L50_bk] n=1000
+  [DONE] BIN_e200_L50_bk_M50
+      bse_ref=0.4598  cov=0.900  SER=0.922  [71s]
+config                      bias_ref    bse_ref    bse_a18    bse_a30    cov_ref    ser_refESS_min_mean w_p99_meanriesz_res_mean
+--------------------------------------------------------------------------------------------------------------------------------
+REG_KPV_super                -0.0164     0.4960     0.1170     0.4992     0.9600     1.0615    51.2176   3.74e-07     5.3612
+DRK_KPV_super                -0.0175     0.4715     0.4655     0.3991     0.9200     0.9978   161.3089    10.7205     0.0062
+BIN_e250_L50                 -0.0049     0.1622     0.1797     0.1075     0.9400     0.9397   982.4400     1.0447     0.0057
+BIN_e260_L50                 -0.0056     0.1869     0.0759     0.1502     0.9200     0.9398   982.8454     1.0459     0.0054
+BIN_e285_L50               -5.06e-04     0.0167     0.1880     0.0623     0.9400     0.9407   983.8481     1.0480     0.0054
+BIN_e300_L50                  0.0012     0.0407     0.3380     0.1256     0.9600     0.9338   984.7333     1.0545     0.0054
+BIN_e275_L55                 -0.0033     0.1077     0.0753     0.1596     0.9600     0.9362   982.5266     1.0561     0.0054
+BIN_e275_L60                 -0.0054     0.1777     0.0190     0.2611     0.9600     0.9393   982.5266     1.0561     0.0054
+BIN_e275_L50_ec200         -3.65e-04     0.0121     0.1194     0.0208     0.9600     0.9409   982.8896     1.0505     0.0054
+BIN_e275_L50_ec350           -0.0015     0.0501     0.3099     0.0103     0.9400     0.9374   983.7801     1.0493     0.0057
+BIN_e275_L50_ec450           -0.0033     0.1087     0.3059     0.0528     0.9200     0.9103   982.5064     1.0519     0.0057
+BIN_e180_L35_bk              -0.0050     0.1693     0.4092     0.2285     0.9400     0.9212   982.4623     1.0491     0.0056
+BIN_e220_L35_bk               0.0130     0.4255     0.7466     0.7633     0.9600     0.9361   983.2163     1.0454     0.0056
+BIN_e200_L40_bk              -0.0084     0.2843     0.4397     0.0106     0.9000     0.9259   983.8477     1.0547     0.0053
+BIN_e200_L50_bk              -0.0136     0.4598     0.3391     0.4542     0.9000     0.9218   982.7344     1.0506     0.0056
+  Stage report: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\phase14B_stagewave2.md
+
+=== Phase 14B Wave 2 total: 956s (15.9 min) ===

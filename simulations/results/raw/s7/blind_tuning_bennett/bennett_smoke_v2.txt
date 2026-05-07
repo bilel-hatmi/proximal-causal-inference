@@ -1,0 +1,165 @@
+
+======================================================================
+Phase 18 Adaptive Tuner: method=bennett mode=smoke
+Starting from stage 1, stopping after 5
+Phase 18 changes vs Phase 17:
+  1. lambda_h x n_fold gate (hard fail < 0.01)
+  2. kappa_h penalty starts at 1e5 (was 1e6)
+  3. Stage 1 at 2 cells: n=1000 + n=2000
+  4. Stage 4 includes n=2000/SNR=0.95 reference cell
+======================================================================
+
+=== STAGE 1: 1D coarse scans for bennett ===
+  Cells: [(1000, 0.95, 0.95), (2000, 0.95, 0.95)] [Phase 18: 2-cell sweep]
+
+  [bennett] Axis: lambda_h
+  [SKIP] S1_lambda_h_0_n1000
+  [SKIP] S1_lambda_h_0_n2000
+    lambda_h=1e-05  score=0.405  [n1000=0.414 / n2000=0.397]  [13s]
+  [SKIP] S1_lambda_h_1_n1000
+  [SKIP] S1_lambda_h_1_n2000
+    lambda_h=3e-05  score=0.462  [n1000=0.462 / n2000=0.462]  [0s]
+  [SKIP] S1_lambda_h_2_n1000
+  [SKIP] S1_lambda_h_2_n2000
+    lambda_h=0.0001  score=0.542  [n1000=0.555 / n2000=0.529]  [0s]
+  [SKIP] S1_lambda_h_3_n1000
+  [SKIP] S1_lambda_h_3_n2000
+    lambda_h=0.001  score=1.059  [n1000=1.089 / n2000=1.030]  [0s]
+
+  [bennett] Axis: gamma_critic
+  [SKIP] S1_gamma_critic_0_n1000
+  [SKIP] S1_gamma_critic_0_n2000
+    gamma_critic=1e-05  score=0.407  [n1000=0.400 / n2000=0.413]  [0s]
+  [SKIP] S1_gamma_critic_1_n1000
+  [SKIP] S1_gamma_critic_1_n2000
+    gamma_critic=0.0001  score=0.419  [n1000=0.439 / n2000=0.398]  [0s]
+  [SKIP] S1_gamma_critic_2_n1000
+  [SKIP] S1_gamma_critic_2_n2000
+    gamma_critic=0.001  score=0.416  [n1000=0.422 / n2000=0.411]  [0s]
+  [SKIP] S1_gamma_critic_3_n1000
+  [SKIP] S1_gamma_critic_3_n2000
+    gamma_critic=0.01  score=0.455  [n1000=0.445 / n2000=0.464]  [0s]
+
+  [bennett] Axis: ell_h
+  [SKIP] S1_ell_h_0_n1000
+  [SKIP] S1_ell_h_0_n2000
+    ell_h=1.5  score=0.359  [n1000=0.355 / n2000=0.364]  [0s]
+  [SKIP] S1_ell_h_1_n1000
+  [SKIP] S1_ell_h_1_n2000
+    ell_h=2.0  score=0.365  [n1000=0.368 / n2000=0.363]  [0s]
+  [SKIP] S1_ell_h_2_n1000
+  [SKIP] S1_ell_h_2_n2000
+    ell_h=2.75  score=0.399  [n1000=0.404 / n2000=0.394]  [0s]
+  [SKIP] S1_ell_h_3_n1000
+  [SKIP] S1_ell_h_3_n2000
+    ell_h=3.5  score=0.445  [n1000=0.450 / n2000=0.439]  [0s]
+  [SKIP] S1_ell_h_4_n1000
+  [SKIP] S1_ell_h_4_n2000
+    ell_h=5.0  score=0.562  [n1000=0.557 / n2000=0.568]  [0s]
+
+  [bennett] Axis: lambda_r
+  [SKIP] S1_lambda_r_0_n1000
+  [SKIP] S1_lambda_r_0_n2000
+    lambda_r=0.001  score=0.390  [n1000=0.402 / n2000=0.379]  [0s]
+  [SKIP] S1_lambda_r_1_n1000
+  [SKIP] S1_lambda_r_1_n2000
+    lambda_r=0.01  score=0.422  [n1000=0.426 / n2000=0.417]  [0s]
+  [SKIP] S1_lambda_r_2_n1000
+  [SKIP] S1_lambda_r_2_n2000
+    lambda_r=0.1  score=0.715  [n1000=0.713 / n2000=0.717]  [0s]
+
+  [bennett] Axis: ell_scale_r
+  [SKIP] S1_ell_scale_r_0_n1000
+  [SKIP] S1_ell_scale_r_0_n2000
+    ell_scale_r=2.5  score=0.468  [n1000=0.482 / n2000=0.454]  [0s]
+  [SKIP] S1_ell_scale_r_1_n1000
+  [SKIP] S1_ell_scale_r_1_n2000
+    ell_scale_r=3.5  score=0.420  [n1000=0.421 / n2000=0.418]  [0s]
+  [SKIP] S1_ell_scale_r_2_n1000
+  [SKIP] S1_ell_scale_r_2_n2000
+    ell_scale_r=5.0  score=0.372  [n1000=0.360 / n2000=0.384]  [0s]
+
+Stage 1 done in 0.3 min
+
+=== STAGE 2: 2D refinement for bennett ===
+  [SKIP] S2_c0
+  cfg0 score=0.463  [0s]
+  [SKIP] S2_c1
+  cfg1 score=0.542  [0s]
+  [DONE] S2_c2
+  cfg2 score=0.330  [48s]
+  [DONE] S2_c3
+  cfg3 score=0.350  [45s]
+  [DONE] S2_c4
+  cfg4 score=0.370  [50s]
+  [DONE] S2_c5
+  cfg5 score=0.348  [43s]
+  [DONE] S2_c6
+  cfg6 score=0.359  [47s]
+  [DONE] S2_c7
+  cfg7 score=0.370  [57s]
+
+Stage 2 done in 4.8 min
+
+=== STAGE 3: Cross-cell consistency for bennett ===
+  [SKIP] S3_c0_n1000_s95
+  cfg0 n=1000 SNR=0.95: score=0.439  [0s]
+  [SKIP] S3_c0_n2000_s90
+  cfg0 n=2000 SNR=0.9: score=0.469  [0s]
+  [SKIP] S3_c0_n2000_s85
+  cfg0 n=2000 SNR=0.85: score=0.496  [0s]
+  [SKIP] S3_c1_n1000_s95
+  cfg1 n=1000 SNR=0.95: score=0.581  [0s]
+  [SKIP] S3_c1_n2000_s90
+  cfg1 n=2000 SNR=0.9: score=0.622  [0s]
+  [SKIP] S3_c1_n2000_s85
+  cfg1 n=2000 SNR=0.85: score=0.689  [0s]
+  [DONE] S3_c2_n1000_s95
+  cfg2 n=1000 SNR=0.95: score=0.344  [54s]
+  [DONE] S3_c2_n2000_s90
+  cfg2 n=2000 SNR=0.9: score=0.351  [54s]
+  [DONE] S3_c2_n2000_s85
+  cfg2 n=2000 SNR=0.85: score=0.358  [57s]
+
+Stage 3 done in 2.8 min
+
+=== STAGE 4: Disjoint validation (M=5) for bennett ===
+  [SKIP] S4_c0_n1000_s95_W95Z95
+  cfg0 n=1000 W=0.95 Z=0.95: score=0.459  SER=0.838 [FAIL]  [0s]
+  [SKIP] S4_c0_n2000_s95_W95Z95
+  cfg0 n=2000 W=0.95 Z=0.95: score=0.440  SER=1.183 [FAIL]  [0s]
+  [SKIP] S4_c0_n2000_s90_W90Z90
+  cfg0 n=2000 W=0.9 Z=0.9: score=0.477  SER=1.208 [FAIL]  [0s]
+  [SKIP] S4_c0_n2000_s85_W85Z85
+  cfg0 n=2000 W=0.85 Z=0.85: score=0.513  SER=1.258 [FAIL]  [0s]
+  [SKIP] S4_c1_n1000_s95_W95Z95
+  cfg1 n=1000 W=0.95 Z=0.95: score=0.522  SER=1.362 [FAIL]  [0s]
+  [SKIP] S4_c1_n2000_s95_W95Z95
+  cfg1 n=2000 W=0.95 Z=0.95: score=0.536  SER=0.617 [FAIL]  [0s]
+  [SKIP] S4_c1_n2000_s90_W90Z90
+  cfg1 n=2000 W=0.9 Z=0.9: score=0.583  SER=0.607 [FAIL]  [0s]
+  [SKIP] S4_c1_n2000_s85_W85Z85
+  cfg1 n=2000 W=0.85 Z=0.85: score=0.630  SER=0.595 [FAIL]  [0s]
+  [WARN] cfg0: SER at reference cell (n=2000/SNR=0.95) = 1.183 OUTSIDE [0.85,1.15] -> interpolation failure flag
+  [WARN] cfg1: SER at reference cell (n=2000/SNR=0.95) = 0.617 OUTSIDE [0.85,1.15] -> interpolation failure flag
+
+Stage 4 done in 0.0 min
+
+=== STAGE 5: Regime robustness for bennett ===
+  [DONE] S5_n1000_W80_Z80
+  n=1000 W=0.8 Z=0.8: score=0.544  SER=0.864 [OK]  cov=1.000  [89s]
+  [DONE] S5_n1000_W95_Z50
+  n=1000 W=0.95 Z=0.5: score=0.412  SER=0.757 [FAIL]  cov=0.800  [86s]
+  [DONE] S5_n1000_W50_Z95
+  n=1000 W=0.5 Z=0.95: score=0.464  SER=0.873 [OK]  cov=1.000  [86s]
+  [DONE] S5_n2000_W95_Z95
+  n=2000 W=0.95 Z=0.95: score=0.346  SER=0.717 [FAIL]  cov=0.800  [83s]
+
+Stage 5 done in 5.7 min
+  Final report: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\phase18_bennett_FINAL.md
+
+======================================================================
+Phase 18 bennett COMPLETE in 13.6 min
+Winner: {'m_h': 2000, 'm_c': 500, 'ell_h': 2.0, 'ell_c': 2.0, 'lambda_h': 1e-05, 'gamma_critic': 0.001, 'lambda_r': 0.001, 'n_features_r': 500, 'ell_scale_r': 5.0}
+Envelope: REGIME-CONDITIONAL
+======================================================================

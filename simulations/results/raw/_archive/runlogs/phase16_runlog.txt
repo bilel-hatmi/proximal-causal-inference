@@ -1,0 +1,1298 @@
+=== Phase 16 START jeu. 30 avr. 2026 08:55:43 ===
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+
+=== Cell n=1000  SNR=0.85  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] n=1000 SNR=0.85
+  [DONE] linearDR_M200
+    bse_ref=0.4050  cov=0.985  SER=0.508  [1s]
+  [KPVREG] n=1000 SNR=0.85
+  [DONE] KPVREG_M200
+    bse_ref=0.4073  cov=0.920  SER=0.990  [141s]
+  [DRKPV] n=1000 SNR=0.85
+  [DONE] DRKPV_M200
+    bse_ref=0.5707  cov=0.875  SER=0.871  [342s]
+  [best_bennett] n=1000 SNR=0.85
+  [DONE] best_bennett_M200
+    bse_ref=0.0924  cov=0.865  SER=0.792  [1785s]
+
+=== Cell n=1000  SNR=0.9  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] n=1000 SNR=0.9
+  [DONE] linearDR_M200
+    bse_ref=0.9199  cov=0.880  SER=0.860  [1s]
+  [KPVREG] n=1000 SNR=0.9
+  [DONE] KPVREG_M200
+    bse_ref=0.4309  cov=0.915  SER=1.012  [133s]
+  [DRKPV] n=1000 SNR=0.9
+  [DONE] DRKPV_M200
+    bse_ref=0.5317  cov=0.880  SER=0.891  [338s]
+  [best_bennett] n=1000 SNR=0.9
+  [DONE] best_bennett_M200
+    bse_ref=0.0128  cov=0.880  SER=0.838  [1772s]
+
+=== Cell n=1000  SNR=0.95  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] n=1000 SNR=0.95
+  [DONE] linearDR_M200
+    bse_ref=0.6037  cov=0.975  SER=0.678  [1s]
+  [KPVREG] n=1000 SNR=0.95
+  [DONE] KPVREG_M200
+    bse_ref=0.4740  cov=0.925  SER=1.075  [134s]
+  [DRKPV] n=1000 SNR=0.95
+  [DONE] DRKPV_M200
+    bse_ref=0.4422  cov=0.945  SER=1.043  [336s]
+  [best_bennett] n=1000 SNR=0.95
+  [DONE] best_bennett_M200
+    bse_ref=0.1097  cov=0.935  SER=0.973  [1773s]
+
+=== Cell n=2000  SNR=0.85  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] n=2000 SNR=0.85
+  [DONE] linearDR_M200
+    bse_ref=1.1374  cov=0.860  SER=0.795  [1s]
+  [KPVREG] n=2000 SNR=0.85
+  [DONE] KPVREG_M200
+    bse_ref=0.3165  cov=0.935  SER=1.059  [612s]
+  [DRKPV] n=2000 SNR=0.85
+  [DONE] DRKPV_M200
+    bse_ref=0.4354  cov=0.905  SER=0.973  [1585s]
+  [best_bennett] n=2000 SNR=0.85
+  [DONE] best_bennett_M200
+    bse_ref=0.3428  cov=0.905  SER=0.840  [1918s]
+
+=== Cell n=2000  SNR=0.9  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] n=2000 SNR=0.9
+  [DONE] linearDR_M200
+    bse_ref=1.2724  cov=0.795  SER=0.820  [1s]
+  [KPVREG] n=2000 SNR=0.9
+  [DONE] KPVREG_M200
+    bse_ref=0.4819  cov=0.935  SER=1.000  [605s]
+  [DRKPV] n=2000 SNR=0.9
+  [DONE] DRKPV_M200
+    bse_ref=0.4614  cov=0.910  SER=0.940  [1552s]
+  [best_bennett] n=2000 SNR=0.9
+  [DONE] best_bennett_M200
+    bse_ref=0.0647  cov=0.905  SER=0.871  [1940s]
+
+=== Cell n=2000  SNR=0.95  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] n=2000 SNR=0.95
+  [DONE] linearDR_M200
+    bse_ref=0.6086  cov=0.980  SER=0.527  [1s]
+  [KPVREG] n=2000 SNR=0.95
+  [DONE] KPVREG_M200
+    bse_ref=0.5474  cov=0.900  SER=0.944  [607s]
+  [DRKPV] n=2000 SNR=0.95
+  [DONE] DRKPV_M200
+    bse_ref=0.4861  cov=0.875  SER=0.892  [1399s]
+  [best_bennett] n=2000 SNR=0.95
+  [DONE] best_bennett_M200
+    bse_ref=0.0660  cov=0.945  SER=0.908  [1621s]
+  Report: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\phase16_EXPA_coverage_map.md
+
+=== Phase 16 EXP-A total: 18599s (310.0 min) ===
+=== EXP-A DONE jeu. 30 avr. 2026 14:05:45 ===
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:157: RuntimeWarning: Mean of empty slice
+  "kappa_r_mean":      float(np.nanmean(kappa_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:158: RuntimeWarning: All-NaN slice encountered
+  "kappa_r_p50":       float(np.nanmedian(kappa_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:159: RuntimeWarning: Mean of empty slice
+  "eff_rank_r_mean":   float(np.nanmean(eff_rank_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:160: RuntimeWarning: Mean of empty slice
+  "residual_norm_r_mean": float(np.nanmean(resid_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:159: RuntimeWarning: Mean of empty slice
+  "eff_rank_r_mean":   float(np.nanmean(eff_rank_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:157: RuntimeWarning: Mean of empty slice
+  "kappa_r_mean":      float(np.nanmean(kappa_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:158: RuntimeWarning: All-NaN slice encountered
+  "kappa_r_p50":       float(np.nanmedian(kappa_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:159: RuntimeWarning: Mean of empty slice
+  "eff_rank_r_mean":   float(np.nanmean(eff_rank_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:160: RuntimeWarning: Mean of empty slice
+  "residual_norm_r_mean": float(np.nanmean(resid_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:159: RuntimeWarning: Mean of empty slice
+  "eff_rank_r_mean":   float(np.nanmean(eff_rank_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:157: RuntimeWarning: Mean of empty slice
+  "kappa_r_mean":      float(np.nanmean(kappa_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:158: RuntimeWarning: All-NaN slice encountered
+  "kappa_r_p50":       float(np.nanmedian(kappa_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:159: RuntimeWarning: Mean of empty slice
+  "eff_rank_r_mean":   float(np.nanmean(eff_rank_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:160: RuntimeWarning: Mean of empty slice
+  "residual_norm_r_mean": float(np.nanmean(resid_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:159: RuntimeWarning: Mean of empty slice
+  "eff_rank_r_mean":   float(np.nanmean(eff_rank_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:157: RuntimeWarning: Mean of empty slice
+  "kappa_r_mean":      float(np.nanmean(kappa_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:158: RuntimeWarning: All-NaN slice encountered
+  "kappa_r_p50":       float(np.nanmedian(kappa_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:159: RuntimeWarning: Mean of empty slice
+  "eff_rank_r_mean":   float(np.nanmean(eff_rank_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:160: RuntimeWarning: Mean of empty slice
+  "residual_norm_r_mean": float(np.nanmean(resid_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:159: RuntimeWarning: Mean of empty slice
+  "eff_rank_r_mean":   float(np.nanmean(eff_rank_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:157: RuntimeWarning: Mean of empty slice
+  "kappa_r_mean":      float(np.nanmean(kappa_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:158: RuntimeWarning: All-NaN slice encountered
+  "kappa_r_p50":       float(np.nanmedian(kappa_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:159: RuntimeWarning: Mean of empty slice
+  "eff_rank_r_mean":   float(np.nanmean(eff_rank_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:160: RuntimeWarning: Mean of empty slice
+  "residual_norm_r_mean": float(np.nanmean(resid_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:159: RuntimeWarning: Mean of empty slice
+  "eff_rank_r_mean":   float(np.nanmean(eff_rank_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:157: RuntimeWarning: Mean of empty slice
+  "kappa_r_mean":      float(np.nanmean(kappa_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:158: RuntimeWarning: All-NaN slice encountered
+  "kappa_r_p50":       float(np.nanmedian(kappa_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:159: RuntimeWarning: Mean of empty slice
+  "eff_rank_r_mean":   float(np.nanmean(eff_rank_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:160: RuntimeWarning: Mean of empty slice
+  "residual_norm_r_mean": float(np.nanmean(resid_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:153: RuntimeWarning: Mean of empty slice
+  "kappa_h_mean":      float(np.nanmean(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:154: RuntimeWarning: All-NaN slice encountered
+  "kappa_h_p50":       float(np.nanmedian(kappa_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:155: RuntimeWarning: Mean of empty slice
+  "eff_rank_h_mean":   float(np.nanmean(eff_rank_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:156: RuntimeWarning: Mean of empty slice
+  "residual_norm_h_mean": float(np.nanmean(resid_h_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase16_EXPC_spectral.py:159: RuntimeWarning: Mean of empty slice
+  "eff_rank_r_mean":   float(np.nanmean(eff_rank_r_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+
+=== Cell n=1000  SNR=0.85  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] n=1000 SNR=0.85
+  [DONE] linearDR_M50
+    bse=1.2625  cov=0.840  kappa_h=nan  kappa_r=nan  [0s]
+  [KPVREG] n=1000 SNR=0.85
+  [DONE] KPVREG_M50
+    bse=0.2694  cov=0.980  kappa_h=nan  kappa_r=1.000e+00  [32s]
+  [DRKPV] n=1000 SNR=0.85
+  [DONE] DRKPV_M50
+    bse=0.2626  cov=0.940  kappa_h=nan  kappa_r=1.212e+50  [220s]
+  [best_bennett] n=1000 SNR=0.85
+  [DONE] best_bennett_M50
+    bse=0.3808  cov=0.900  kappa_h=8.713e+04  kappa_r=8.507e+01  [424s]
+
+=== Cell n=1000  SNR=0.9  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] n=1000 SNR=0.9
+  [DONE] linearDR_M50
+    bse=0.5911  cov=0.940  kappa_h=nan  kappa_r=nan  [0s]
+  [KPVREG] n=1000 SNR=0.9
+  [DONE] KPVREG_M50
+    bse=0.6583  cov=0.940  kappa_h=nan  kappa_r=1.000e+00  [30s]
+  [DRKPV] n=1000 SNR=0.9
+  [DONE] DRKPV_M50
+    bse=0.6803  cov=0.880  kappa_h=nan  kappa_r=inf  [230s]
+  [best_bennett] n=1000 SNR=0.9
+  [DONE] best_bennett_M50
+    bse=0.1801  cov=0.900  kappa_h=8.744e+04  kappa_r=8.537e+01  [382s]
+
+=== Cell n=1000  SNR=0.95  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] n=1000 SNR=0.95
+  [DONE] linearDR_M50
+    bse=1.0145  cov=0.840  kappa_h=nan  kappa_r=nan  [0s]
+  [KPVREG] n=1000 SNR=0.95
+  [DONE] KPVREG_M50
+    bse=0.5425  cov=0.960  kappa_h=nan  kappa_r=1.000e+00  [28s]
+  [DRKPV] n=1000 SNR=0.95
+  [DONE] DRKPV_M50
+    bse=0.3255  cov=0.960  kappa_h=nan  kappa_r=2.577e+67  [222s]
+  [best_bennett] n=1000 SNR=0.95
+  [DONE] best_bennett_M50
+    bse=0.0923  cov=1.000  kappa_h=8.808e+04  kappa_r=8.613e+01  [388s]
+
+=== Cell n=2000  SNR=0.85  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] n=2000 SNR=0.85
+  [DONE] linearDR_M50
+    bse=1.4066  cov=0.680  kappa_h=nan  kappa_r=nan  [0s]
+  [KPVREG] n=2000 SNR=0.85
+  [DONE] KPVREG_M50
+    bse=0.3252  cov=0.940  kappa_h=nan  kappa_r=1.000e+00  [125s]
+  [DRKPV] n=2000 SNR=0.85
+  [DONE] DRKPV_M50
+    bse=0.6533  cov=0.920  kappa_h=nan  kappa_r=4.571e+68  [1275s]
+  [best_bennett] n=2000 SNR=0.85
+  [DONE] best_bennett_M50
+    bse=0.4082  cov=0.840  kappa_h=8.705e+04  kappa_r=8.501e+01  [414s]
+
+=== Cell n=2000  SNR=0.9  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] n=2000 SNR=0.9
+  [DONE] linearDR_M50
+    bse=1.7185  cov=0.540  kappa_h=nan  kappa_r=nan  [0s]
+  [KPVREG] n=2000 SNR=0.9
+  [DONE] KPVREG_M50
+    bse=0.5916  cov=0.900  kappa_h=nan  kappa_r=1.000e+00  [124s]
+  [DRKPV] n=2000 SNR=0.9
+  [DONE] DRKPV_M50
+    bse=0.7201  cov=0.880  kappa_h=nan  kappa_r=2.857e+51  [1558s]
+  [best_bennett] n=2000 SNR=0.9
+  [DONE] best_bennett_M50
+    bse=0.0195  cov=0.900  kappa_h=8.736e+04  kappa_r=8.530e+01  [637s]
+
+=== Cell n=2000  SNR=0.95  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] n=2000 SNR=0.95
+  [DONE] linearDR_M50
+    bse=0.1079  cov=0.980  kappa_h=nan  kappa_r=nan  [0s]
+  [KPVREG] n=2000 SNR=0.95
+  [DONE] KPVREG_M50
+    bse=0.4225  cov=0.940  kappa_h=nan  kappa_r=1.000e+00  [176s]
+  [DRKPV] n=2000 SNR=0.95
+  [DONE] DRKPV_M50
+    bse=0.3899  cov=0.920  kappa_h=nan  kappa_r=1.759e+50  [1869s]
+  [best_bennett] n=2000 SNR=0.95
+  [DONE] best_bennett_M50
+    bse=0.2003  cov=0.940  kappa_h=8.811e+04  kappa_r=8.612e+01  [469s]
+  Report: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\phase16_EXPC_spectral.md
+
+=== Phase 16 EXP-C total: 8604s (143.4 min) ===
+=== EXP-C DONE jeu. 30 avr. 2026 16:29:20 ===
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 11.5% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 12.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 11.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 13.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 12.5% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 25.5% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 11.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 12.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 19.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 11.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 10.5% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 15.5% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 11.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 13.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+
+=== Cell SNR_W=0.5  SNR_Z=0.5  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] snrW50_snrZ50
+  [DONE] linearDR_M80
+    bse_ref=0.4007  cov=0.950  SER=0.709  [1s]
+  [KPVREG] snrW50_snrZ50
+  [DONE] KPVREG_M80
+    bse_ref=0.7379  cov=0.863  SER=0.981  [62s]
+  [DRKPV] snrW50_snrZ50
+  [DONE] DRKPV_M80
+    bse_ref=0.3275  cov=0.912  SER=0.898  [137s]
+  [best_bennett] snrW50_snrZ50
+  [DONE] best_bennett_M80
+    bse_ref=1.4735  cov=0.637  SER=0.678  [877s]
+
+=== Cell SNR_W=0.5  SNR_Z=0.7  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] snrW50_snrZ70
+  [DONE] linearDR_M80
+    bse_ref=0.5473  cov=0.938  SER=0.854  [1s]
+  [KPVREG] snrW50_snrZ70
+  [DONE] KPVREG_M80
+    bse_ref=0.6238  cov=0.912  SER=0.969  [74s]
+  [DRKPV] snrW50_snrZ70
+  [DONE] DRKPV_M80
+    bse_ref=0.3114  cov=0.938  SER=0.908  [178s]
+  [best_bennett] snrW50_snrZ70
+  [DONE] best_bennett_M80
+    bse_ref=1.1299  cov=0.725  SER=0.668  [1022s]
+
+=== Cell SNR_W=0.5  SNR_Z=0.85  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] snrW50_snrZ85
+  [DONE] linearDR_M80
+    bse_ref=0.5464  cov=0.963  SER=0.860  [1s]
+  [KPVREG] snrW50_snrZ85
+  [DONE] KPVREG_M80
+    bse_ref=0.3427  cov=0.938  SER=1.017  [70s]
+  [DRKPV] snrW50_snrZ85
+  [DONE] DRKPV_M80
+    bse_ref=0.1185  cov=0.950  SER=0.943  [173s]
+  [best_bennett] snrW50_snrZ85
+  [DONE] best_bennett_M80
+    bse_ref=0.7478  cov=0.750  SER=0.637  [995s]
+
+=== Cell SNR_W=0.5  SNR_Z=0.95  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] snrW50_snrZ95
+  [DONE] linearDR_M80
+    bse_ref=0.7022  cov=0.912  SER=0.890  [1s]
+  [KPVREG] snrW50_snrZ95
+  [DONE] KPVREG_M80
+    bse_ref=0.1088  cov=0.963  SER=1.054  [74s]
+  [DRKPV] snrW50_snrZ95
+  [DONE] DRKPV_M80
+    bse_ref=0.1324  cov=0.887  SER=0.878  [173s]
+  [best_bennett] snrW50_snrZ95
+  [DONE] best_bennett_M80
+    bse_ref=0.4624  cov=0.725  SER=0.586  [936s]
+
+=== Cell SNR_W=0.7  SNR_Z=0.5  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] snrW70_snrZ50
+  [DONE] linearDR_M80
+    bse_ref=0.7430  cov=0.925  SER=0.965  [1s]
+  [KPVREG] snrW70_snrZ50
+  [DONE] KPVREG_M80
+    bse_ref=0.4655  cov=0.925  SER=0.971  [66s]
+  [DRKPV] snrW70_snrZ50
+  [DONE] DRKPV_M80
+    bse_ref=0.3171  cov=0.938  SER=0.984  [161s]
+  [best_bennett] snrW70_snrZ50
+  [DONE] best_bennett_M80
+    bse_ref=1.4615  cov=0.650  SER=0.677  [781s]
+
+=== Cell SNR_W=0.7  SNR_Z=0.7  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] snrW70_snrZ70
+  [DONE] linearDR_M80
+    bse_ref=0.7479  cov=0.912  SER=0.854  [0s]
+  [KPVREG] snrW70_snrZ70
+  [DONE] KPVREG_M80
+    bse_ref=0.1366  cov=0.950  SER=1.028  [55s]
+  [DRKPV] snrW70_snrZ70
+  [DONE] DRKPV_M80
+    bse_ref=0.0195  cov=0.925  SER=0.996  [141s]
+  [best_bennett] snrW70_snrZ70
+  [DONE] best_bennett_M80
+    bse_ref=0.7651  cov=0.750  SER=0.704  [736s]
+
+=== Cell SNR_W=0.7  SNR_Z=0.85  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] snrW70_snrZ85
+  [DONE] linearDR_M80
+    bse_ref=0.4011  cov=0.988  SER=0.594  [0s]
+  [KPVREG] snrW70_snrZ85
+  [DONE] KPVREG_M80
+    bse_ref=0.2402  cov=0.975  SER=1.184  [55s]
+  [DRKPV] snrW70_snrZ85
+  [DONE] DRKPV_M80
+    bse_ref=0.3774  cov=0.912  SER=0.928  [146s]
+  [best_bennett] snrW70_snrZ85
+  [DONE] best_bennett_M80
+    bse_ref=0.2005  cov=0.825  SER=0.736  [786s]
+
+=== Cell SNR_W=0.7  SNR_Z=0.95  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] snrW70_snrZ95
+  [DONE] linearDR_M80
+    bse_ref=0.2115  cov=0.975  SER=0.470  [0s]
+  [KPVREG] snrW70_snrZ95
+  [DONE] KPVREG_M80
+    bse_ref=0.4305  cov=0.975  SER=1.205  [64s]
+  [DRKPV] snrW70_snrZ95
+  [DONE] DRKPV_M80
+    bse_ref=0.5678  cov=0.912  SER=0.941  [138s]
+  [best_bennett] snrW70_snrZ95
+  [DONE] best_bennett_M80
+    bse_ref=0.0086  cov=0.825  SER=0.718  [754s]
+
+=== Cell SNR_W=0.85  SNR_Z=0.5  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] snrW85_snrZ50
+  [DONE] linearDR_M80
+    bse_ref=0.2092  cov=0.988  SER=0.362  [0s]
+  [KPVREG] snrW85_snrZ50
+  [DONE] KPVREG_M80
+    bse_ref=0.0196  cov=0.912  SER=0.878  [55s]
+  [DRKPV] snrW85_snrZ50
+  [DONE] DRKPV_M80
+    bse_ref=0.1256  cov=0.963  SER=1.057  [134s]
+  [best_bennett] snrW85_snrZ50
+  [DONE] best_bennett_M80
+    bse_ref=1.0531  cov=0.713  SER=0.726  [727s]
+
+=== Cell SNR_W=0.85  SNR_Z=0.7  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] snrW85_snrZ70
+  [DONE] linearDR_M80
+    bse_ref=0.0651  cov=0.988  SER=0.235  [0s]
+  [KPVREG] snrW85_snrZ70
+  [DONE] KPVREG_M80
+    bse_ref=0.0312  cov=0.938  SER=1.017  [54s]
+  [DRKPV] snrW85_snrZ70
+  [DONE] DRKPV_M80
+    bse_ref=0.2204  cov=0.950  SER=1.064  [134s]
+  [best_bennett] snrW85_snrZ70
+  [DONE] best_bennett_M80
+    bse_ref=0.7730  cov=0.825  SER=0.824  [722s]
+
+=== Cell SNR_W=0.85  SNR_Z=0.85  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] snrW85_snrZ85
+  [DONE] linearDR_M80
+    bse_ref=1.3274  cov=0.825  SER=1.175  [0s]
+  [KPVREG] snrW85_snrZ85
+  [DONE] KPVREG_M80
+    bse_ref=0.2344  cov=0.975  SER=1.061  [54s]
+  [DRKPV] snrW85_snrZ85
+  [DONE] DRKPV_M80
+    bse_ref=0.3725  cov=0.950  SER=0.879  [134s]
+  [best_bennett] snrW85_snrZ85
+  [DONE] best_bennett_M80
+    bse_ref=0.4022  cov=0.887  SER=0.845  [722s]
+
+=== Cell SNR_W=0.85  SNR_Z=0.95  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] snrW85_snrZ95
+  [DONE] linearDR_M80
+    bse_ref=1.3834  cov=0.787  SER=1.117  [0s]
+  [KPVREG] snrW85_snrZ95
+  [DONE] KPVREG_M80
+    bse_ref=0.1790  cov=1.000  SER=1.093  [54s]
+  [DRKPV] snrW85_snrZ95
+  [DONE] DRKPV_M80
+    bse_ref=0.1438  cov=0.925  SER=0.930  [137s]
+  [best_bennett] snrW85_snrZ95
+  [DONE] best_bennett_M80
+    bse_ref=0.3604  cov=0.875  SER=0.844  [750s]
+
+=== Cell SNR_W=0.95  SNR_Z=0.5  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] snrW95_snrZ50
+  [DONE] linearDR_M80
+    bse_ref=0.9432  cov=0.912  SER=1.002  [0s]
+  [KPVREG] snrW95_snrZ50
+  [DONE] KPVREG_M80
+    bse_ref=0.1995  cov=0.925  SER=0.944  [54s]
+  [DRKPV] snrW95_snrZ50
+  [DONE] DRKPV_M80
+    bse_ref=0.3381  cov=0.938  SER=0.948  [137s]
+  [best_bennett] snrW95_snrZ50
+  [DONE] best_bennett_M80
+    bse_ref=0.6470  cov=0.875  SER=0.950  [747s]
+
+=== Cell SNR_W=0.95  SNR_Z=0.7  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] snrW95_snrZ70
+  [DONE] linearDR_M80
+    bse_ref=0.2990  cov=0.988  SER=0.451  [0s]
+  [KPVREG] snrW95_snrZ70
+  [DONE] KPVREG_M80
+    bse_ref=0.3231  cov=0.912  SER=0.873  [55s]
+  [DRKPV] snrW95_snrZ70
+  [DONE] DRKPV_M80
+    bse_ref=0.5359  cov=0.887  SER=0.858  [136s]
+  [best_bennett] snrW95_snrZ70
+  [DONE] best_bennett_M80
+    bse_ref=0.3390  cov=0.900  SER=0.855  [717s]
+
+=== Cell SNR_W=0.95  SNR_Z=0.85  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] snrW95_snrZ85
+  [DONE] linearDR_M80
+    bse_ref=0.5504  cov=0.988  SER=0.561  [0s]
+  [KPVREG] snrW95_snrZ85
+  [DONE] KPVREG_M80
+    bse_ref=0.3359  cov=0.925  SER=0.908  [45s]
+  [DRKPV] snrW95_snrZ85
+  [DONE] DRKPV_M80
+    bse_ref=0.5089  cov=0.863  SER=0.848  [113s]
+  [best_bennett] snrW95_snrZ85
+  [DONE] best_bennett_M80
+    bse_ref=0.1940  cov=0.925  SER=0.848  [722s]
+
+=== Cell SNR_W=0.95  SNR_Z=0.95  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] snrW95_snrZ95
+  [DONE] linearDR_M80
+    bse_ref=1.0117  cov=0.863  SER=0.865  [0s]
+  [KPVREG] snrW95_snrZ95
+  [DONE] KPVREG_M80
+    bse_ref=0.3319  cov=0.925  SER=0.921  [45s]
+  [DRKPV] snrW95_snrZ95
+  [DONE] DRKPV_M80
+    bse_ref=0.2660  cov=0.925  SER=0.921  [120s]
+  [best_bennett] snrW95_snrZ95
+  [DONE] best_bennett_M80
+    bse_ref=0.0741  cov=0.912  SER=0.835  [699s]
+  Report: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\phase16_EXPB_proxy_feasibility.md
+
+=== Phase 16 EXP-B total: 15929s (265.5 min) ===
+=== EXP-B DONE jeu. 30 avr. 2026 20:55:01 ===
+=== Phase 16 ALL DONE jeu. 30 avr. 2026 20:55:01 ===

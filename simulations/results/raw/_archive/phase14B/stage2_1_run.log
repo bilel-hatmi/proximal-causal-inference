@@ -1,0 +1,100 @@
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+
+=== Stage 2.1 COARSE h_B  SNR=0.95, n=1000, M=50 ===
+    [REG_KPV_super] n=1000
+  [DONE] REG_KPV_super_M50
+      bse_ref=0.4960  cov=0.960  SER=1.061  [31s]
+    [DRK_KPV_super] n=1000
+  [DONE] DRK_KPV_super_M50
+      bse_ref=0.4715  cov=0.920  SER=0.998  [77s]
+    [BIN_lh4_gc4] n=1000
+  [DONE] BIN_lh4_gc4_M50
+      bse_ref=1.5196  cov=0.680  SER=0.827  [84s]
+    [BIN_lh4_gc3] n=1000
+  [DONE] BIN_lh4_gc3_M50
+      bse_ref=1.4749  cov=0.680  SER=0.802  [83s]
+    [BIN_lh4_gc2] n=1000
+  [DONE] BIN_lh4_gc2_M50
+      bse_ref=1.3039  cov=0.700  SER=0.840  [85s]
+    [BIN_lh3_gc4] n=1000
+  [DONE] BIN_lh3_gc4_M50
+      bse_ref=0.8850  cov=0.820  SER=0.844  [82s]
+    [BIN_lh3_gc3] n=1000
+  [DONE] BIN_lh3_gc3_M50
+      bse_ref=0.8847  cov=0.820  SER=0.842  [82s]
+    [BIN_lh3_gc2] n=1000
+  [DONE] BIN_lh3_gc2_M50
+      bse_ref=0.3039  cov=0.900  SER=0.859  [82s]
+    [BIN_lh2_gc4] n=1000
+  [DONE] BIN_lh2_gc4_M50
+      bse_ref=0.6656  cov=0.900  SER=0.885  [93s]
+    [BIN_lh2_gc3] n=1000
+  [DONE] BIN_lh2_gc3_M50
+      bse_ref=0.8442  cov=0.880  SER=0.892  [87s]
+    [BIN_lh2_gc2] n=1000
+  [DONE] BIN_lh2_gc2_M50
+      bse_ref=1.2411  cov=0.720  SER=0.895  [85s]
+    [BIN_lh1_gc4] n=1000
+  [DONE] BIN_lh1_gc4_M50
+      bse_ref=0.9388  cov=0.820  SER=0.955  [87s]
+    [BIN_lh1_gc3] n=1000
+  [DONE] BIN_lh1_gc3_M50
+      bse_ref=0.9679  cov=0.800  SER=0.957  [86s]
+    [BIN_lh1_gc2] n=1000
+  [DONE] BIN_lh1_gc2_M50
+      bse_ref=1.0259  cov=0.800  SER=0.953  [85s]
+config                      bias_ref    bse_ref    bse_a18    bse_a30    cov_ref    ser_refESS_min_mean w_p99_meanriesz_res_mean
+--------------------------------------------------------------------------------------------------------------------------------
+REG_KPV_super                -0.0164     0.4960     0.1170     0.4992     0.9600     1.0615    51.2176   3.74e-07     5.3612
+DRK_KPV_super                -0.0175     0.4715     0.4655     0.3991     0.9200     0.9978   161.3089    10.7205     0.0062
+BIN_lh4_gc4                  -0.0432     1.5196     1.9656     1.1556     0.6800     0.8266   983.2299     1.0478     0.0057
+BIN_lh4_gc3                  -0.0418     1.4749     2.0908     1.0187     0.6800     0.8024   983.2299     1.0478     0.0057
+BIN_lh4_gc2                  -0.0370     1.3039     2.7543     0.6192     0.7000     0.8404   983.2299     1.0478     0.0057
+BIN_lh3_gc4                  -0.0252     0.8850     2.4213     0.3784     0.8200     0.8442   983.0235     1.0463     0.0058
+BIN_lh3_gc3                  -0.0253     0.8847     2.8894     0.3307     0.8200     0.8423   983.0235     1.0463     0.0058
+BIN_lh3_gc2                  -0.0089     0.3039     2.5081     0.1053     0.9000     0.8593   983.0235     1.0463     0.0058
+BIN_lh2_gc4                   0.0199     0.6656     0.8704     0.6975     0.9000     0.8846   984.2146     1.0455     0.0059
+BIN_lh2_gc3                   0.0254     0.8442     0.8583     0.7315     0.8800     0.8920   984.2146     1.0455     0.0059
+BIN_lh2_gc2                   0.0378     1.2411     0.4303     1.0792     0.7200     0.8946   984.2146     1.0455     0.0059
+BIN_lh1_gc4                   0.0288     0.9388     1.9442     0.3943     0.8200     0.9547   983.3412     1.0528     0.0057
+BIN_lh1_gc3                   0.0297     0.9679     2.0696     0.4218     0.8000     0.9572   983.3412     1.0528     0.0057
+BIN_lh1_gc2                   0.0314     1.0259     2.0694     0.5056     0.8000     0.9526   983.3412     1.0528     0.0057
+  Stage report: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\phase14B_stage2_1.md
+
+--- Autonomous selection (Stage 2.1) ---
+  SER filter [0.7, 1.3]: 12/12 pass
+  Composite score = 0.5*bse_ref + 0.3*bse_a18 + 0.2*bse_a30:
+    BIN_lh2_gc4: score=0.7334  (bse_ref=0.666, bse_a18=0.870, SER=0.885)
+    BIN_lh2_gc3: score=0.8259  (bse_ref=0.844, bse_a18=0.858, SER=0.892)
+    BIN_lh3_gc2: score=0.9254  (bse_ref=0.304, bse_a18=2.508, SER=0.859)
+    BIN_lh2_gc2: score=0.9655  (bse_ref=1.241, bse_a18=0.430, SER=0.895)
+    BIN_lh1_gc4: score=1.1315  (bse_ref=0.939, bse_a18=1.944, SER=0.955)
+  Top 3 selected: ['BIN_lh2_gc4', 'BIN_lh2_gc3', 'BIN_lh3_gc2']
+  Top (lambda_h, gamma_critic) pairs for Stage 2.3: [(0.01, 0.0001), (0.01, 0.001), (0.001, 0.01)]
+
+=== Phase 14B total: 1130s (18.8 min) ===

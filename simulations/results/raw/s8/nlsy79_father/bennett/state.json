@@ -1,0 +1,88 @@
+{
+  "method": "bennett",
+  "current_stage": 1,
+  "converged": true,
+  "stage_history": [
+    {
+      "stage": 1,
+      "completed_at": 1777688685.9105039
+    },
+    {
+      "stage": 2,
+      "completed_at": 1777694590.537654
+    },
+    {
+      "stage": 3,
+      "completed_at": 1777696830.17269
+    },
+    {
+      "stage": 4,
+      "completed_at": 1777699663.967116
+    },
+    {
+      "stage": 5,
+      "completed_at": 1777700813.4963834
+    }
+  ],
+  "current_top_configs": [],
+  "drapeaux": [],
+  "compute_used_minutes": 347.7159779946009,
+  "winner": {
+    "ci": 0,
+    "config": {
+      "m_h": 2000,
+      "m_c": 500,
+      "ell_h": 1.5,
+      "ell_c": 2.0,
+      "lambda_h": 1e-05,
+      "gamma_critic": 0.01,
+      "lambda_r": 0.001,
+      "n_features_r": 500,
+      "ell_scale_r": 5.0
+    },
+    "mean_score": 0.570353337065138,
+    "ser_in_range_count": 0,
+    "ser_total": 1,
+    "ref_cell_ser": 0.20534856531024093,
+    "ref_cell_ser_ok": false,
+    "per_cell": {
+      "('real',)": {
+        "label": "S4_c0_validation",
+        "config": {
+          "m_h": 2000,
+          "m_c": 500,
+          "ell_h": 1.5,
+          "ell_c": 2.0,
+          "lambda_h": 1e-05,
+          "gamma_critic": 0.01,
+          "lambda_r": 0.001,
+          "n_features_r": 500,
+          "ell_scale_r": 5.0
+        },
+        "diags": {
+          "M_ok": 100,
+          "n": 4977,
+          "kappa_h": 60175.169109627815,
+          "kappa_r": 857.9428670307484,
+          "eff_rank_h": 8.981628937362698,
+          "eff_rank_r": 1.3898716403715639,
+          "residual_norm_h": 0.0008592064687715093,
+          "residual_norm_r": 7.0864736512081e-16,
+          "RR_ref": 0.006710177410414061,
+          "ESS_min_ratio": 0.7085187301248498,
+          "w_p99_ref": 1.3896600099075018,
+          "SER": 0.20534856531024093,
+          "_bse_ref_NONBLIND": NaN,
+          "_cov_ref_NONBLIND": 0.0,
+          "_bias_ref_NONBLIND": NaN,
+          "lambda_h": 1e-05,
+          "m_h": 2000.0
+        },
+        "score": 0.570353337065138,
+        "n": 4977,
+        "M": 100
+      }
+    }
+  },
+  "envelope": "PROXY-SINGLE"
+}

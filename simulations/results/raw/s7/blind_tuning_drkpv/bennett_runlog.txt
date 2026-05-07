@@ -1,0 +1,154 @@
+
+======================================================================
+Phase 17 Adaptive Tuner: method=bennett mode=full
+Starting from stage 1, stopping after 5
+======================================================================
+
+=== STAGE 1: 1D coarse scans for bennett ===
+
+  [bennett] Axis: lambda_h
+  [DONE] S1_lambda_h_0
+    lambda_h=1e-06  score=0.374  [303s]
+  [DONE] S1_lambda_h_1
+    lambda_h=1e-05  score=0.412  [287s]
+  [DONE] S1_lambda_h_2
+    lambda_h=3e-05  score=0.456  [292s]
+  [DONE] S1_lambda_h_3
+    lambda_h=0.0001  score=0.522  [281s]
+  [DONE] S1_lambda_h_4
+    lambda_h=0.001  score=1.054  [278s]
+
+  [bennett] Axis: gamma_critic
+  [DONE] S1_gamma_critic_0
+    gamma_critic=1e-05  score=0.423  [291s]
+  [DONE] S1_gamma_critic_1
+    gamma_critic=0.0001  score=0.416  [342s]
+  [DONE] S1_gamma_critic_2
+    gamma_critic=0.001  score=0.406  [359s]
+  [DONE] S1_gamma_critic_3
+    gamma_critic=0.01  score=0.446  [355s]
+
+  [bennett] Axis: ell_h
+  [DONE] S1_ell_h_0
+    ell_h=1.5  score=0.361  [357s]
+  [DONE] S1_ell_h_1
+    ell_h=2.0  score=0.375  [360s]
+  [DONE] S1_ell_h_2
+    ell_h=2.75  score=0.419  [359s]
+  [DONE] S1_ell_h_3
+    ell_h=3.5  score=0.458  [357s]
+  [DONE] S1_ell_h_4
+    ell_h=5.0  score=0.597  [359s]
+
+  [bennett] Axis: lambda_r
+  [DONE] S1_lambda_r_0
+    lambda_r=0.001  score=0.392  [358s]
+  [DONE] S1_lambda_r_1
+    lambda_r=0.01  score=0.407  [354s]
+  [DONE] S1_lambda_r_2
+    lambda_r=0.1  score=0.722  [360s]
+
+  [bennett] Axis: ell_scale_r
+  [DONE] S1_ell_scale_r_0
+    ell_scale_r=2.5  score=0.472  [362s]
+  [DONE] S1_ell_scale_r_1
+    ell_scale_r=3.5  score=0.414  [361s]
+  [DONE] S1_ell_scale_r_2
+    ell_scale_r=5.0  score=0.392  [365s]
+
+Stage 1 done in 112.3 min
+
+=== STAGE 2: 2D refinement for bennett ===
+  [DONE] S2_c0
+  cfg0 score=0.314  [611s]
+  [DONE] S2_c1
+  cfg1 score=0.323  [659s]
+  [DONE] S2_c2
+  cfg2 score=0.306  [702s]
+  [DONE] S2_c3
+  cfg3 score=0.317  [704s]
+  [DONE] S2_c4
+  cfg4 score=0.334  [704s]
+  [DONE] S2_c5
+  cfg5 score=0.349  [701s]
+  [DONE] S2_c6
+  cfg6 score=0.330  [698s]
+  [DONE] S2_c7
+  cfg7 score=0.343  [694s]
+
+Stage 2 done in 91.2 min
+
+=== STAGE 3: Cross-cell consistency for bennett ===
+  [DONE] S3_c0_n1000_s95
+  cfg0 n=1000 SNR=0.95: score=0.306  [665s]
+  [DONE] S3_c0_n2000_s90
+  cfg0 n=2000 SNR=0.9: score=0.308  [722s]
+  [DONE] S3_c0_n2000_s85
+  cfg0 n=2000 SNR=0.85: score=0.323  [749s]
+  [DONE] S3_c1_n1000_s95
+  cfg1 n=1000 SNR=0.95: score=0.314  [692s]
+  [DONE] S3_c1_n2000_s90
+  cfg1 n=2000 SNR=0.9: score=0.313  [747s]
+  [DONE] S3_c1_n2000_s85
+  cfg1 n=2000 SNR=0.85: score=0.321  [753s]
+  [DONE] S3_c2_n1000_s95
+  cfg2 n=1000 SNR=0.95: score=0.318  [691s]
+  [DONE] S3_c2_n2000_s90
+  cfg2 n=2000 SNR=0.9: score=0.332  [755s]
+  [DONE] S3_c2_n2000_s85
+  cfg2 n=2000 SNR=0.85: score=0.362  [701s]
+
+Stage 3 done in 107.9 min
+
+=== STAGE 4: Disjoint validation (M=100) for bennett ===
+  [DONE] S4_c0_n1000_s95
+  cfg0 n=1000 SNR=0.95: score=0.308  SER=0.938  [1368s]
+  [DONE] S4_c0_n2000_s90
+  cfg0 n=2000 SNR=0.9: score=0.312  SER=0.952  [1466s]
+  [DONE] S4_c0_n2000_s85
+  cfg0 n=2000 SNR=0.85: score=0.330  SER=0.815  [1465s]
+  [DONE] S4_c1_n1000_s95
+  cfg1 n=1000 SNR=0.95: score=0.314  SER=0.926  [1251s]
+  [DONE] S4_c1_n2000_s90
+  cfg1 n=2000 SNR=0.9: score=0.313  SER=0.782  [1463s]
+  [DONE] S4_c1_n2000_s85
+  cfg1 n=2000 SNR=0.85: score=0.321  SER=0.712  [1454s]
+
+Stage 4 done in 141.1 min
+
+=== STAGE 5: Regime robustness for bennett ===
+  [DONE] S5_n1000_W80_Z80
+  n=1000 W=0.8 Z=0.8: score=0.372  SER=0.620  cov=0.830  [1353s]
+  [DONE] S5_n1000_W95_Z50
+  n=1000 W=0.95 Z=0.5: score=0.365  SER=0.746  cov=0.780  [1368s]
+  [DONE] S5_n1000_W50_Z95
+  n=1000 W=0.5 Z=0.95: score=0.378  SER=0.542  cov=0.700  [1347s]
+  [DONE] S5_n2000_W95_Z95
+  n=2000 W=0.95 Z=0.95: score=0.299  SER=0.312  cov=0.800  [1450s]
+
+Stage 5 done in 92.0 min
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase17_blind_tuning.py", line 954, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase17_blind_tuning.py", line 950, in main
+    tuner.run()
+    ~~~~~~~~~^^
+  File "C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase17_blind_tuning.py", line 879, in run
+    self._save_state(state)
+    ~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase17_blind_tuning.py", line 394, in _save_state
+    json.dumps(state, indent=2, default=str), encoding="utf-8"
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bilel\AppData\Local\Python\pythoncore-3.14-64\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Users\bilel\AppData\Local\Python\pythoncore-3.14-64\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\bilel\AppData\Local\Python\pythoncore-3.14-64\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be str, int, float, bool or None, not tuple
+when serializing dict item 'per_cell'
+when serializing dict item 'winner'

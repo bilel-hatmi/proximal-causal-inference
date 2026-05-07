@@ -1,0 +1,52 @@
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+========================================================================
+Phase 12B SNR stress -- SNR=0.9, n=1000, M=50, seed_base=25000000
+========================================================================
+h_KDE=0.2057  ell_W0=1.2903  ell_A0=0.6905  ell_Z0=1.3121
+J_policy_true (SNR=0.9): ['1.3664', '1.5021', '1.6163', '1.7142']
+
+  [1/4] REG_Hsuper  n=1000  M=50
+  [DONE] REG_Hsuper_snr90_n1000_M50
+    |b|/SE=0.4480  cov=0.940  SER=1.014  [110s]
+  [2/4] DRK_Hsuper  n=1000  M=50
+  [DONE] DRK_Hsuper_snr90_n1000_M50
+    |b|/SE=0.2762  cov=0.960  SER=0.741  [250s]
+  [3/4] RFF500_e35_L1e2_Hs  n=1000  M=50
+  [DONE] RFF500_e35_L1e2_Hs_snr90_n1000_M50
+    |b|/SE=0.4560  cov=0.860  SER=0.778  [175s]
+  [4/4] RFF250_e25_L1e2_Hs  n=1000  M=50
+  [DONE] RFF250_e25_L1e2_Hs_snr90_n1000_M50
+    |b|/SE=0.5504  cov=0.820  SER=0.788  [188s]
+
+Total SNR stress: 724s (12.1 min)
+
+Report: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\phase12B_bennett_rff_snr_stress_snr90.md
+
+# Phase 12B Bennett-lite RFF -- SNR stress test (SNR=0.9)
+Date: 2026-04-29
+DGP: MichaelisMentenDGP(SNR=0.9)  |  n=1000  |  M=50  |  seed_base=25000000
+
+## Robustness check at lower SNR
+
+Phase 12B (full validation, SNR=0.95): boundary a=1.8 reduced 86-96% by RFF.
+This stress test verifies the pattern persists at SNR=0.9.
+
+## Results
+
+| Config | M | bias_DR | |b|/SE | cov | SER | bse_a1.8 | bse_a2.2 | bse_a2.6 | bse_a3.0 |
+|---|---|---|---|---|---|---|---|---|---|
+| REG_Hsuper | 50 | -0.0161 | 0.4480 | 0.940 | 1.014 | 0.332 | 0.506 | 0.448 | 0.244 |
+| DRK_Hsuper | 50 | -0.0124 | 0.2762 | 0.960 | 0.741 | 0.596 | 0.640 | 0.276 | 0.064 |
+| RFF500_e35_L1e2_Hs | 50 | -0.0134 | 0.4560 | 0.860 | 0.778 | 0.190 | 0.382 | 0.456 | 0.439 |
+| RFF250_e25_L1e2_Hs | 50 | -0.0162 | 0.5504 | 0.820 | 0.788 | 0.662 | 0.683 | 0.550 | 0.346 |
+
+## Boundary improvement vs DRK at a=1.8 and a=2.2
+
+- RFF500_e35_L1e2_Hs at a=1.8: bse=0.190 vs DRK 0.596 -> +68.0% reduction
+- RFF250_e25_L1e2_Hs at a=1.8: bse=0.662 vs DRK 0.596 -> -11.1% reduction
+

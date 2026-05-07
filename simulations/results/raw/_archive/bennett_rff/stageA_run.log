@@ -1,0 +1,111 @@
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+========================================================================
+Phase 12B Bennett-lite RFF  --stage A
+========================================================================
+h_KDE=0.2057  ell_W0=1.1399  ell_A0=0.6905  ell_Z0=1.1592
+J_policy_true: ['1.3664', '1.5021', '1.6163', '1.7142']
+
+--- Stage A  n=1000  M=50  (14 configs) ---
+  [1/14] REG_Hsuper  n=1000  M=50
+  [DONE] REG_Hsuper_n1000_M50
+    |b|/SE=0.4368  cov=0.9000  SER=0.843  [205s]
+  [2/14] DRK_Hsuper  n=1000  M=50
+  [DONE] DRK_Hsuper_n1000_M50
+    |b|/SE=0.3737  cov=0.9000  SER=0.897  [251s]
+  [3/14] RFF100_e25_L1e2_Hs  n=1000  M=50
+  [DONE] RFF100_e25_L1e2_Hs_n1000_M50
+    |b|/SE=0.3794  cov=0.9200  SER=0.889  [98s]
+  [4/14] RFF100_e25_L1e1_Hs  n=1000  M=50
+  [DONE] RFF100_e25_L1e1_Hs_n1000_M50
+    |b|/SE=0.5099  cov=0.9000  SER=0.840  [122s]
+  [5/14] RFF100_e35_L1e2_Hs  n=1000  M=50
+  [DONE] RFF100_e35_L1e2_Hs_n1000_M50
+    |b|/SE=0.6010  cov=0.8200  SER=0.807  [118s]
+  [6/14] RFF100_e35_L1e1_Hs  n=1000  M=50
+  [DONE] RFF100_e35_L1e1_Hs_n1000_M50
+    |b|/SE=0.2288  cov=0.8400  SER=0.873  [91s]
+  [7/14] RFF250_e25_L1e2_Hs  n=1000  M=50
+  [DONE] RFF250_e25_L1e2_Hs_n1000_M50
+    |b|/SE=0.2682  cov=0.9400  SER=0.913  [159s]
+  [8/14] RFF250_e25_L1e1_Hs  n=1000  M=50
+  [DONE] RFF250_e25_L1e1_Hs_n1000_M50
+    |b|/SE=0.4632  cov=0.9000  SER=0.809  [131s]
+  [9/14] RFF250_e35_L1e2_Hs  n=1000  M=50
+  [DONE] RFF250_e35_L1e2_Hs_n1000_M50
+    |b|/SE=0.6559  cov=0.9200  SER=1.040  [161s]
+  [10/14] RFF250_e35_L1e1_Hs  n=1000  M=50
+  [DONE] RFF250_e35_L1e1_Hs_n1000_M50
+    |b|/SE=0.4032  cov=0.9200  SER=0.913  [123s]
+  [11/14] RFF500_e25_L1e2_Hs  n=1000  M=50
+  [DONE] RFF500_e25_L1e2_Hs_n1000_M50
+    |b|/SE=0.5574  cov=0.9400  SER=0.966  [178s]
+  [12/14] RFF500_e25_L1e1_Hs  n=1000  M=50
+  [DONE] RFF500_e25_L1e1_Hs_n1000_M50
+    |b|/SE=0.4348  cov=0.8800  SER=0.884  [200s]
+  [13/14] RFF500_e35_L1e2_Hs  n=1000  M=50
+  [DONE] RFF500_e35_L1e2_Hs_n1000_M50
+    |b|/SE=0.2499  cov=0.8800  SER=0.856  [193s]
+  [14/14] RFF500_e35_L1e1_Hs  n=1000  M=50
+  [DONE] RFF500_e35_L1e1_Hs_n1000_M50
+    |b|/SE=0.4306  cov=0.8800  SER=0.907  [187s]
+
+Total elapsed Stage A: 2217s (37.0 min)
+Stage report: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\phase12B_bennett_rff_stageA.md
+
+# Phase 12B Bennett-lite RFF -- Stage A
+Date: 2026-04-28
+DGP: MichaelisMentenDGP(SNR=0.95)  |  n=1000  |  M=50  |  seed_base=24000000
+a_grid: [1.8, 2.2, 2.6, 3.0]  |  REF_IDX=2 (a=2.6)
+
+## Results
+
+| Config                       | M_ok | bias_DR  | |b|/SE  | cov    | SER   | ESS_abs | w_p99 | riesz_res |
+|------------------------------|------|----------|--------|-------|-------|---------|-------|-----------|
+| REG_Hsuper                   |   50 | -0.0144 | 0.4368 | 0.9000 | 0.843 | 55.7 | 3.96e-07 | 5.49e+00 |
+| DRK_Hsuper                   |   50 | -0.0140 | 0.3737 | 0.9000 | 0.897 | 164.1 | 10.37 | 6.06e-03 |
+| RFF100_e25_L1e2_Hs           |   50 | -0.0113 | 0.3794 | 0.9200 | 0.889 | 967.8 | 1.13 | 9.99e-03 |
+| RFF100_e25_L1e1_Hs           |   50 | -0.0151 | 0.5099 | 0.9000 | 0.840 | 969.5 | 0.97 | 2.26e-02 |
+| RFF100_e35_L1e2_Hs           |   50 | -0.0178 | 0.6010 | 0.8200 | 0.807 | 983.9 | 1.07 | 5.75e-03 |
+| RFF100_e35_L1e1_Hs           |   50 | -0.0068 | 0.2288 | 0.8400 | 0.873 | 985.3 | 0.95 | 1.70e-02 |
+| RFF250_e25_L1e2_Hs           |   50 | -0.0080 | 0.2682 | 0.9400 | 0.913 | 966.7 | 1.11 | 1.02e-02 |
+| RFF250_e25_L1e1_Hs           |   50 | -0.0137 | 0.4632 | 0.9000 | 0.809 | 971.2 | 0.96 | 2.22e-02 |
+| RFF250_e35_L1e2_Hs           |   50 | -0.0196 | 0.6559 | 0.9200 | 1.040 | 984.0 | 1.06 | 5.45e-03 |
+| RFF250_e35_L1e1_Hs           |   50 | -0.0120 | 0.4032 | 0.9200 | 0.913 | 986.7 | 0.94 | 1.53e-02 |
+| RFF500_e25_L1e2_Hs           |   50 | -0.0165 | 0.5574 | 0.9400 | 0.966 | 969.6 | 1.11 | 9.51e-03 |
+| RFF500_e25_L1e1_Hs           |   50 | -0.0128 | 0.4348 | 0.8800 | 0.884 | 974.6 | 0.95 | 2.24e-02 |
+| RFF500_e35_L1e2_Hs           |   50 | -0.0074 | 0.2499 | 0.8800 | 0.856 | 984.7 | 1.04 | 5.64e-03 |
+| RFF500_e35_L1e1_Hs           |   50 | -0.0128 | 0.4306 | 0.8800 | 0.907 | 986.5 | 0.93 | 1.61e-02 |
+
+**Benchmark DRK_Hsuper**: |b|/SE=0.3737, cov=0.9000
+
+**Best Bennett by |b|/SE**: RFF100_e35_L1e1_Hs -- |b|/SE=0.2288 (0.61x bench), cov=0.8400, SER=0.873, riesz_res=1.70e-02
+
+**2 configs pass hard filters** (|b|/SE-ratio, SER, ESS, riesz):
+  - RFF500_e35_L1e2_Hs: ratio=0.669, SER=0.856, riesz_res=5.64e-03
+  - RFF250_e25_L1e2_Hs: ratio=0.718, SER=0.913, riesz_res=1.02e-02
+

@@ -1,0 +1,59 @@
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+
+=== Phase 19C  n=2000  SNR=0.95  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+
+  Config h=under (lambda_h=1e-07) x r=under (lambda_r=1e-05)
+  [DONE] hunder_runder_M50
+    bse_ref=0.1305  cov=0.880  SER=0.838  [439s]
+
+  Config h=under (lambda_h=1e-07) x r=super (lambda_r=1e-02)
+  [DONE] hunder_rsuper_M50
+    bse_ref=0.1579  cov=0.860  SER=0.822  [369s]
+
+  Config h=under (lambda_h=1e-07) x r=over (lambda_r=1e+00)
+  [DONE] hunder_rover_M50
+    bse_ref=0.1542  cov=0.880  SER=0.856  [419s]
+
+  Config h=super (lambda_h=1e-05) x r=under (lambda_r=1e-05)
+  [DONE] hsuper_runder_M50
+    bse_ref=0.1262  cov=0.900  SER=0.861  [408s]
+
+  Config h=super (lambda_h=1e-05) x r=super (lambda_r=1e-02)
+  [DONE] hsuper_rsuper_M50
+    bse_ref=0.1011  cov=0.900  SER=0.846  [376s]
+
+  Config h=super (lambda_h=1e-05) x r=over (lambda_r=1e+00)
+  [DONE] hsuper_rover_M50
+    bse_ref=0.0982  cov=0.900  SER=0.875  [380s]
+
+  Config h=over (lambda_h=1e-01) x r=under (lambda_r=1e-05)
+  [DONE] hover_runder_M50
+    bse_ref=4.0705  cov=0.000  SER=0.918  [427s]
+
+  Config h=over (lambda_h=1e-01) x r=super (lambda_r=1e-02)
+  [DONE] hover_rsuper_M50
+    bse_ref=1.3639  cov=0.720  SER=0.822  [408s]
+
+  Config h=over (lambda_h=1e-01) x r=over (lambda_r=1e+00)
+  [DONE] hover_rover_M50
+    bse_ref=6.1245  cov=0.020  SER=0.580  [410s]
+  Report: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\phase19C_bennett_identifiability.md
+
+=== Phase 19C total: 3636s (60.6 min) ===

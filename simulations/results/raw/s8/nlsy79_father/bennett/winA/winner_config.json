@@ -1,0 +1,24 @@
+{
+  "config": {
+    "m_h": 2000,
+    "m_c": 500,
+    "ell_h": 0.5,
+    "ell_c": 2.0,
+    "lambda_h": 1e-05,
+    "gamma_critic": 0.01,
+    "lambda_r": 0.001,
+    "n_features_r": 500,
+    "ell_scale_r": 5.0
+  },
+  "score": 0.5312648720073058,
+  "base_score": 0.570353337065138,
+  "slope_mean": 0.10463385398016166,
+  "slope_se": 0.007314378170411897,
+  "slope_ci": [
+    0.09152587910167313,
+    0.11851834566618846
+  ],
+  "M_validate": 100,
+  "axis_widened": "ell_h",
+  "axis_value": 0.5
+}

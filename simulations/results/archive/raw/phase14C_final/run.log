@@ -1,0 +1,164 @@
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+
+=== Cell SNR=0.9, n=1000 ===
+  cell SNR=0.9, n=1000: h_KDE=0.2057, J_pt=['1.3664', '1.5021', '1.6163', '1.7142']
+    [REG_KPV_super]
+  [DONE] REG_KPV_super_M100
+      bse_ref=0.3851  cov=0.980  SER=1.103  [50s]
+    [DRK_KPV_super]
+  [DONE] DRK_KPV_super_M100
+      bse_ref=0.3053  cov=0.920  SER=1.015  [125s]
+    [Bennett_lite]
+  [DONE] Bennett_lite_M100
+      bse_ref=0.4373  cov=0.910  SER=0.897  [85s]
+    [BIN_mh2000]
+  [DONE] BIN_mh2000_M100
+      bse_ref=0.0811  cov=0.900  SER=0.910  [584s]
+    [Kallus_best]
+  [DONE] Kallus_best_M100
+      bse_ref=0.0920  cov=0.960  SER=0.872  [172s]
+    [SAFE_R3] bse_ref=0.2529  cov=0.990  SER=1.230  [post-hoc]
+
+=== Cell SNR=0.9, n=2000 ===
+  cell SNR=0.9, n=2000: h_KDE=0.2057, J_pt=['1.3664', '1.5021', '1.6163', '1.7142']
+    [REG_KPV_super]
+  [DONE] REG_KPV_super_M100
+      bse_ref=0.4518  cov=0.900  SER=0.958  [235s]
+    [DRK_KPV_super]
+  [DONE] DRK_KPV_super_M100
+      bse_ref=0.4953  cov=0.860  SER=0.830  [619s]
+    [Bennett_lite]
+  [DONE] Bennett_lite_M100
+      bse_ref=0.5306  cov=0.850  SER=0.781  [298s]
+    [BIN_mh2000]
+  [DONE] BIN_mh2000_M100
+      bse_ref=0.1124  cov=0.910  SER=0.848  [621s]
+    [Kallus_best]
+  [DONE] Kallus_best_M100
+      bse_ref=0.3551  cov=0.870  SER=0.704  [513s]
+    [SAFE_R3] bse_ref=0.4082  cov=0.940  SER=1.010  [post-hoc]
+
+=== Cell SNR=0.95, n=1000 ===
+  cell SNR=0.95, n=1000: h_KDE=0.2057, J_pt=['1.3664', '1.5021', '1.6163', '1.7142']
+    [REG_KPV_super]
+  [DONE] REG_KPV_super_M100
+      bse_ref=0.4097  cov=0.940  SER=1.092  [51s]
+    [DRK_KPV_super]
+  [DONE] DRK_KPV_super_M100
+      bse_ref=0.3366  cov=0.970  SER=1.172  [139s]
+    [Bennett_lite]
+  [DONE] Bennett_lite_M100
+      bse_ref=0.4223  cov=0.920  SER=0.981  [88s]
+    [BIN_mh2000]
+  [DONE] BIN_mh2000_M100
+      bse_ref=0.0509  cov=0.970  SER=0.912  [675s]
+    [Kallus_best]
+  [DONE] Kallus_best_M100
+      bse_ref=0.0316  cov=0.930  SER=0.821  [214s]
+    [SAFE_R3] bse_ref=0.2916  cov=0.980  SER=1.354  [post-hoc]
+
+=== Cell SNR=0.95, n=2000 ===
+  cell SNR=0.95, n=2000: h_KDE=0.2057, J_pt=['1.3664', '1.5021', '1.6163', '1.7142']
+    [REG_KPV_super]
+  [DONE] REG_KPV_super_M100
+      bse_ref=0.5815  cov=0.930  SER=0.907  [292s]
+    [DRK_KPV_super]
+  [DONE] DRK_KPV_super_M100
+      bse_ref=0.4683  cov=0.930  SER=0.930  [707s]
+    [Bennett_lite]
+  [DONE] Bennett_lite_M100
+      bse_ref=0.6357  cov=0.920  SER=0.797  [372s]
+    [BIN_mh2000]
+  [DONE] BIN_mh2000_M100
+      bse_ref=0.0067  cov=0.910  SER=0.783  [740s]
+    [Kallus_best]
+  [DONE] Kallus_best_M100
+      bse_ref=0.5174  cov=0.790  SER=0.683  [632s]
+    [SAFE_R3] bse_ref=0.4048  cov=0.970  SER=1.077  [post-hoc]
+
+Final report: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\phase14C_final.md
+Phase 14C.2 total: 7215s (120.2 min)
+
+# Phase 14C — Final 6-method comparison
+Date: 2026-04-29
+DGP: MichaelisMentenDGP, SNR x n grid
+M=100, seed_base=30000000 (DISJOINT from all prior phases)
+a_grid=[1.8, 2.2, 2.6, 3.0], REF_IDX=2
+
+## SNR=0.9, n=1000
+
+| method | bias_ref | bse_ref | bse_a18 | bse_a22 | bse_a30 | avg_bse | cov | SER |
+|---|---|---|---|---|---|---|---|---|
+| REG_KPV_super | -0.0138 | 0.3851 | 0.2791 | 0.4322 | 0.1888 | 0.3213 | 0.980 | 1.103 |
+| DRK_KPV_super | -0.0136 | 0.3053 | 0.4367 | 0.7046 | 0.0730 | 0.3799 | 0.920 | 1.015 |
+| Bennett_lite | -0.0128 | 0.4373 | 0.3162 | 0.5024 | 0.1938 | 0.3624 | 0.910 | 0.897 |
+| BIN_mh2000 | +0.0024 | 0.0811 | 0.2374 | 0.0174 | 0.2239 | 0.1400 | 0.900 | 0.910 |
+| Kallus_best | +0.0043 | 0.0920 | 0.3266 | 0.0864 | 0.1207 | 0.1564 | 0.960 | 0.872 |
+| SAFE_R3 | -0.0136 | 0.2529 | 0.4060 | 0.5762 | 0.0137 | 0.3122 | 0.990 | 1.230 |
+
+## SNR=0.9, n=2000
+
+| method | bias_ref | bse_ref | bse_a18 | bse_a22 | bse_a30 | avg_bse | cov | SER |
+|---|---|---|---|---|---|---|---|---|
+| REG_KPV_super | -0.0115 | 0.4518 | 0.1970 | 0.4188 | 0.3066 | 0.3435 | 0.900 | 0.958 |
+| DRK_KPV_super | -0.0155 | 0.4953 | 0.8014 | 0.5345 | 0.3069 | 0.5345 | 0.860 | 0.830 |
+| Bennett_lite | -0.0111 | 0.5306 | 0.2250 | 0.4975 | 0.3471 | 0.4001 | 0.850 | 0.781 |
+| BIN_mh2000 | +0.0024 | 0.1124 | 0.3336 | 0.0097 | 0.2282 | 0.1710 | 0.910 | 0.848 |
+| Kallus_best | +0.0116 | 0.3551 | 0.8171 | 0.8500 | 0.1244 | 0.5367 | 0.870 | 0.704 |
+| SAFE_R3 | -0.0155 | 0.4082 | 0.5201 | 0.4299 | 0.2162 | 0.3936 | 0.940 | 1.010 |
+
+## SNR=0.95, n=1000
+
+| method | bias_ref | bse_ref | bse_a18 | bse_a22 | bse_a30 | avg_bse | cov | SER |
+|---|---|---|---|---|---|---|---|---|
+| REG_KPV_super | -0.0135 | 0.4097 | 0.2167 | 0.4215 | 0.2706 | 0.3296 | 0.940 | 1.092 |
+| DRK_KPV_super | -0.0125 | 0.3366 | 0.4505 | 0.5424 | 0.1101 | 0.3599 | 0.970 | 1.172 |
+| Bennett_lite | -0.0126 | 0.4223 | 0.2061 | 0.4361 | 0.2675 | 0.3330 | 0.920 | 0.981 |
+| BIN_mh2000 | -0.0015 | 0.0509 | 0.0562 | 0.2088 | 0.1855 | 0.1254 | 0.970 | 0.912 |
+| Kallus_best | +0.0012 | 0.0316 | 0.5574 | 0.0797 | 0.1285 | 0.1993 | 0.930 | 0.821 |
+| SAFE_R3 | -0.0125 | 0.2916 | 0.3789 | 0.4605 | 0.0792 | 0.3026 | 0.980 | 1.354 |
+
+## SNR=0.95, n=2000
+
+| method | bias_ref | bse_ref | bse_a18 | bse_a22 | bse_a30 | avg_bse | cov | SER |
+|---|---|---|---|---|---|---|---|---|
+| REG_KPV_super | -0.0136 | 0.5815 | 0.0414 | 0.3704 | 0.5892 | 0.3956 | 0.930 | 0.907 |
+| DRK_KPV_super | -0.0122 | 0.4683 | 0.5543 | 0.4011 | 0.3404 | 0.4410 | 0.930 | 0.930 |
+| Bennett_lite | -0.0135 | 0.6357 | 0.0395 | 0.4048 | 0.6390 | 0.4298 | 0.920 | 0.797 |
+| BIN_mh2000 | +0.0001 | 0.0067 | 0.1011 | 0.0524 | 0.0480 | 0.0520 | 0.910 | 0.783 |
+| Kallus_best | +0.0141 | 0.5174 | 1.8009 | 1.2303 | 0.2305 | 0.9448 | 0.790 | 0.683 |
+| SAFE_R3 | -0.0122 | 0.4048 | 0.4781 | 0.3383 | 0.2895 | 0.3777 | 0.970 | 1.077 |
+
+## AGGREGATE (mean across 4 cells)
+
+| method | avg_bse | avg_bse_ref | avg_bse_a18 | avg_cov | avg_SER |
+|---|---|---|---|---|---|
+| REG_KPV_super | 0.3475 | 0.4570 | 0.1835 | 0.938 | 1.015 |
+| DRK_KPV_super | 0.4288 | 0.4014 | 0.5607 | 0.920 | 0.987 |
+| Bennett_lite | 0.3813 | 0.5065 | 0.1967 | 0.900 | 0.864 |
+| BIN_mh2000 | 0.1221 | 0.0628 | 0.1821 | 0.923 | 0.863 |
+| Kallus_best | 0.4593 | 0.2490 | 0.8755 | 0.888 | 0.770 |
+| SAFE_R3 | 0.3465 | 0.3394 | 0.4458 | 0.970 | 1.168 |

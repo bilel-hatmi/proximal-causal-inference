@@ -1,0 +1,79 @@
+
+=== Cell n=250  SNR=0.95  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] n=250 SNR=0.95
+  [DONE] linearDR_M100
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+    bse_ref=0.5608  cov=0.970  SER=0.799  [0s]
+  [KPVREG] n=250 SNR=0.95
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+  [DONE] KPVREG_M100
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+    bse_ref=0.3610  cov=0.940  SER=1.052  [7s]
+  [DRKPV] n=250 SNR=0.95
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+  [DONE] DRKPV_M100
+    bse_ref=0.3326  cov=0.940  SER=0.986  [12s]
+  [best_bennett] n=250 SNR=0.95
+  [DONE] best_bennett_M100
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+    bse_ref=0.0569  cov=0.930  SER=0.983  [879s]
+
+=== Cell n=500  SNR=0.95  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+  [linearDR] n=500 SNR=0.95
+  [DONE] linearDR_M100
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:325: RuntimeWarning: Mean of empty slice
+  ess_min_mean    = float(np.nanmean(ess_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:326: RuntimeWarning: Mean of empty slice
+  w_p99_mean      = float(np.nanmean(w_p99_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:327: RuntimeWarning: Mean of empty slice
+  q_clip_mean     = float(np.nanmean(q_clip_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:328: RuntimeWarning: Mean of empty slice
+  riesz_res_mean  = float(np.nanmean(rr_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:329: RuntimeWarning: Mean of empty slice
+  neg_share_mean  = float(np.nanmean(ns_arr)),
+    bse_ref=1.0580  cov=0.810  SER=0.999  [1s]
+  [KPVREG] n=500 SNR=0.95
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:438: RuntimeWarning: Mean of empty slice
+  "kappa_h":         float(np.nanmean(kpv_h_cond_M_folds)),    # KPV M cond
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:440: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean(kpv_h_residual_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:446: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_M":    float(np.nanmean(kpv_h_cond_M_folds)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\bennett_functional_dr.py:447: RuntimeWarning: Mean of empty slice
+  "kpv_h_cond_Areg": float(np.nanmean(kpv_h_cond_Areg_folds)),
+  [DONE] KPVREG_M100
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+    bse_ref=0.4015  cov=0.920  SER=0.976  [22s]
+  [DRKPV] n=500 SNR=0.95
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+  [DONE] DRKPV_M100
+    bse_ref=0.3512  cov=0.910  SER=0.952  [47s]
+  [best_bennett] n=500 SNR=0.95
+  [DONE] best_bennett_M100
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:331: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+    bse_ref=0.0570  cov=0.910  SER=0.868  [882s]
+  Report: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\phase19A_scaling.md
+
+=== Phase 19A total: 1850s (30.8 min) ===

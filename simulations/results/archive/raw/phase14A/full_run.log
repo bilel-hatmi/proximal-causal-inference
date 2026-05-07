@@ -1,0 +1,171 @@
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+========================================================================
+Phase 14A RFF fairness gating  --mode full, M=50
+  m_grid (max) = [100, 250, 500, 750, 1000, 1500]
+  SNR_GRID = [0.9, 0.95], N_GRID = [1000, 2000]
+========================================================================
+
+=== 14A.1 Geometry test ===
+  SNR=0.9, m=100: W frob=0.1017, A frob=0.1412, Z frob=0.1069
+  SNR=0.9, m=250: W frob=0.0788, A frob=0.0632, Z frob=0.0723
+  SNR=0.9, m=500: W frob=0.0731, A frob=0.0929, Z frob=0.0616
+  SNR=0.9, m=750: W frob=0.0467, A frob=0.0395, Z frob=0.0414
+  SNR=0.9, m=1000: W frob=0.0312, A frob=0.0272, Z frob=0.0314
+  SNR=0.9, m=1500: W frob=0.0272, A frob=0.0365, Z frob=0.0324
+  SNR=0.95, m=100: W frob=0.1063, A frob=0.1412, Z frob=0.1121
+  SNR=0.95, m=250: W frob=0.0813, A frob=0.0632, Z frob=0.0746
+  SNR=0.95, m=500: W frob=0.0739, A frob=0.0929, Z frob=0.0614
+  SNR=0.95, m=750: W frob=0.0473, A frob=0.0395, Z frob=0.0425
+  SNR=0.95, m=1000: W frob=0.0315, A frob=0.0272, Z frob=0.0322
+  SNR=0.95, m=1500: W frob=0.0277, A frob=0.0365, Z frob=0.0319
+
+Geometry test elapsed: 6s
+
+=== 14A.2 Functional test ===
+
+--- Cell SNR=0.9, n=1000, M=50 ---
+  [REG_KPV] n=1000
+  [DONE] REG_KPV_M50
+    bse_ref=0.4786  cov=0.920  SER=0.947  [32s]
+  [REG_RFF_m100] n=1000
+  [DONE] REG_RFF_m100_M50
+    bse_ref=0.5761  cov=0.920  SER=0.986  [27s]
+  [REG_RFF_m250] n=1000
+  [DONE] REG_RFF_m250_M50
+    bse_ref=0.4361  cov=0.940  SER=0.970  [29s]
+  [REG_RFF_m500] n=1000
+  [DONE] REG_RFF_m500_M50
+    bse_ref=0.5210  cov=0.900  SER=0.942  [33s]
+  [REG_RFF_m750] n=1000
+  [DONE] REG_RFF_m750_M50
+    bse_ref=0.5165  cov=0.920  SER=0.956  [39s]
+  [REG_RFF_m1000] n=1000
+  [DONE] REG_RFF_m1000_M50
+    bse_ref=0.4591  cov=0.940  SER=0.974  [43s]
+  [REG_RFF_m1500] n=1000
+  [DONE] REG_RFF_m1500_M50
+    bse_ref=0.4924  cov=0.920  SER=0.942  [53s]
+
+--- Cell SNR=0.9, n=2000, M=50 ---
+  [REG_KPV] n=2000
+  [DONE] REG_KPV_M50
+    bse_ref=0.5354  cov=0.920  SER=1.051  [143s]
+  [REG_RFF_m100] n=2000
+  [DONE] REG_RFF_m100_M50
+    bse_ref=0.6745  cov=0.860  SER=1.083  [124s]
+  [REG_RFF_m250] n=2000
+  [DONE] REG_RFF_m250_M50
+    bse_ref=0.4791  cov=0.940  SER=1.046  [132s]
+  [REG_RFF_m500] n=2000
+  [DONE] REG_RFF_m500_M50
+    bse_ref=0.5992  cov=0.900  SER=1.057  [148s]
+  [REG_RFF_m750] n=2000
+  [DONE] REG_RFF_m750_M50
+    bse_ref=0.5852  cov=0.920  SER=1.063  [159s]
+  [REG_RFF_m1000] n=2000
+  [DONE] REG_RFF_m1000_M50
+    bse_ref=0.5269  cov=0.920  SER=1.045  [172s]
+  [REG_RFF_m1500] n=2000
+  [DONE] REG_RFF_m1500_M50
+    bse_ref=0.5569  cov=0.900  SER=1.057  [199s]
+
+--- Cell SNR=0.95, n=1000, M=50 ---
+  [REG_KPV] n=1000
+  [DONE] REG_KPV_M50
+    bse_ref=0.6055  cov=0.920  SER=0.931  [30s]
+  [REG_RFF_m100] n=1000
+  [DONE] REG_RFF_m100_M50
+    bse_ref=0.6259  cov=0.920  SER=0.926  [25s]
+  [REG_RFF_m250] n=1000
+  [DONE] REG_RFF_m250_M50
+    bse_ref=0.5103  cov=0.920  SER=0.937  [29s]
+  [REG_RFF_m500] n=1000
+  [DONE] REG_RFF_m500_M50
+    bse_ref=0.6354  cov=0.900  SER=0.931  [33s]
+  [REG_RFF_m750] n=1000
+  [DONE] REG_RFF_m750_M50
+    bse_ref=0.6191  cov=0.880  SER=0.928  [39s]
+    [Early stop] bse_rff converged to KPV within 5% AND stable to prev m within 3% (rel_to_kpv=0.023, rel_to_prev=0.026)
+
+--- Cell SNR=0.95, n=2000, M=50 ---
+  [REG_KPV] n=2000
+  [DONE] REG_KPV_M50
+    bse_ref=0.5725  cov=0.900  SER=0.905  [142s]
+  [REG_RFF_m100] n=2000
+  [DONE] REG_RFF_m100_M50
+    bse_ref=0.6306  cov=0.880  SER=0.926  [124s]
+  [REG_RFF_m250] n=2000
+  [DONE] REG_RFF_m250_M50
+    bse_ref=0.4826  cov=0.940  SER=0.925  [132s]
+  [REG_RFF_m500] n=2000
+  [DONE] REG_RFF_m500_M50
+    bse_ref=0.6321  cov=0.860  SER=0.903  [145s]
+  [REG_RFF_m750] n=2000
+  [DONE] REG_RFF_m750_M50
+    bse_ref=0.6079  cov=0.880  SER=0.916  [159s]
+  [REG_RFF_m1000] n=2000
+  [DONE] REG_RFF_m1000_M50
+    bse_ref=0.5435  cov=0.900  SER=0.913  [172s]
+  [REG_RFF_m1500] n=2000
+  [DONE] REG_RFF_m1500_M50
+    bse_ref=0.6067  cov=0.880  SER=0.902  [198s]
+
+Functional test elapsed: 2560s
+
+>>> BRANCH DECISION: A_with_min_m
+    info: {'m_geometry_pass': 750, 'functional_passes': [(250, 0.9, 1000, 0.08875612855087663), (500, 0.9, 1000, 0.0885290507260231), (750, 0.9, 1000, 0.07919623920976081), (1000, 0.9, 1000, 0.04066701406521575), (1500, 0.9, 1000, 0.02887804106074277), (750, 0.9, 2000, 0.09308572336891849), (1000, 0.9, 2000, 0.0158862978224757), (1500, 0.9, 2000, 0.040283288926441826), (100, 0.95, 1000, 0.033778404055785256), (500, 0.95, 1000, 0.04934058718300999), (750, 0.95, 1000, 0.022515259819207756), (750, 0.95, 2000, 0.06178677121597671), (1000, 0.95, 2000, 0.050625143828074835), (1500, 0.95, 2000, 0.059738065000872226)]}
+
+Report saved: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\phase14A_rff_fairness.md
+
+Total Phase 14A: 2566s (42.8 min)

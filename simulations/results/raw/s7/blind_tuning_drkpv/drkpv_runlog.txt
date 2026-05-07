@@ -1,0 +1,191 @@
+
+======================================================================
+Phase 17 Adaptive Tuner: method=drkpv mode=full
+Starting from stage 1, stopping after 5
+======================================================================
+
+=== STAGE 1: 1D coarse scans for drkpv ===
+
+  [drkpv] Axis: lambda_h
+  [DONE] S1_lambda_h_0
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase17_blind_tuning.py:176: RuntimeWarning: Mean of empty slice
+  "kappa_h": float(np.nanmean([_safe(r.get("kappa_h")) for r in recs])),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase17_blind_tuning.py:178: RuntimeWarning: Mean of empty slice
+  "eff_rank_h": float(np.nanmean([_safe(r.get("eff_rank_h")) for r in recs])),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase17_blind_tuning.py:179: RuntimeWarning: Mean of empty slice
+  "eff_rank_r": float(np.nanmean([_safe(r.get("eff_rank_r")) for r in recs])),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase17_blind_tuning.py:180: RuntimeWarning: Mean of empty slice
+  "residual_norm_h": float(np.nanmean([_safe(r.get("residual_norm_h")) for r in recs])),
+    lambda_h=1e-06  score=0.246  [213s]
+  [DONE] S1_lambda_h_1
+    lambda_h=1e-05  score=0.272  [196s]
+  [DONE] S1_lambda_h_2
+    lambda_h=3e-05  score=0.325  [200s]
+  [DONE] S1_lambda_h_3
+    lambda_h=0.0001  score=0.293  [206s]
+  [DONE] S1_lambda_h_4
+    lambda_h=0.001  score=0.330  [198s]
+
+  [drkpv] Axis: ell_scale
+  [DONE] S1_ell_scale_0
+    ell_scale=1.5  score=0.256  [203s]
+  [DONE] S1_ell_scale_1
+    ell_scale=2.5  score=0.279  [199s]
+  [DONE] S1_ell_scale_2
+    ell_scale=3.5  score=0.340  [203s]
+  [DONE] S1_ell_scale_3
+    ell_scale=5.0  score=0.206  [206s]
+
+  [drkpv] Axis: lambda_Q
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 10.5% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 16.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 15.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 11.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 11.5% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 12.5% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 12.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+  [DONE] S1_lambda_Q_0
+    lambda_Q=1e-05  score=0.244  [250s]
+  [DONE] S1_lambda_Q_1
+    lambda_Q=0.0001  score=0.144  [251s]
+  [DONE] S1_lambda_Q_2
+    lambda_Q=0.001  score=0.272  [252s]
+  [DONE] S1_lambda_Q_3
+    lambda_Q=0.01  score=0.383  [246s]
+
+  [drkpv] Axis: clip_factor
+  [DONE] S1_clip_factor_0
+    clip_factor=None  score=0.227  [250s]
+  [DONE] S1_clip_factor_1
+    clip_factor=5.0  score=0.235  [248s]
+  [DONE] S1_clip_factor_2
+    clip_factor=3.0  score=0.281  [253s]
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 11.5% of q\u0302 clipped at M_n=11.25. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+  [DONE] S1_clip_factor_3
+    clip_factor=2.0  score=0.479  [251s]
+
+Stage 1 done in 63.7 min
+
+=== STAGE 2: 2D refinement for drkpv ===
+  [DONE] S2_c0
+  cfg0 score=0.171  [420s]
+  [DONE] S2_c1
+  cfg1 score=0.139  [420s]
+  [DONE] S2_c2
+  cfg2 score=0.240  [421s]
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 13.5% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 13.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+  [DONE] S2_c3
+  cfg3 score=0.247  [420s]
+  [DONE] S2_c4
+  cfg4 score=0.214  [426s]
+  [DONE] S2_c5
+  cfg5 score=0.107  [424s]
+  [DONE] S2_c6
+  cfg6 score=0.245  [430s]
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 14.5% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+  [DONE] S2_c7
+  cfg7 score=0.318  [431s]
+
+Stage 2 done in 56.5 min
+
+=== STAGE 3: Cross-cell consistency for drkpv ===
+  [DONE] S3_c0_n1000_s95
+  cfg0 n=1000 SNR=0.95: score=0.114  [426s]
+  [DONE] S3_c0_n2000_s90
+  cfg0 n=2000 SNR=0.9: score=0.086  [2505s]
+  [DONE] S3_c0_n2000_s85
+  cfg0 n=2000 SNR=0.85: score=0.086  [2491s]
+  [DONE] S3_c1_n1000_s95
+  cfg1 n=1000 SNR=0.95: score=0.247  [418s]
+  [DONE] S3_c1_n2000_s90
+  cfg1 n=2000 SNR=0.9: score=0.160  [2429s]
+  [DONE] S3_c1_n2000_s85
+  cfg1 n=2000 SNR=0.85: score=0.148  [2451s]
+  [DONE] S3_c2_n1000_s95
+  cfg2 n=1000 SNR=0.95: score=0.162  [418s]
+  [DONE] S3_c2_n2000_s90
+  cfg2 n=2000 SNR=0.9: score=0.141  [2400s]
+  [DONE] S3_c2_n2000_s85
+  cfg2 n=2000 SNR=0.85: score=0.117  [2349s]
+
+Stage 3 done in 264.8 min
+
+=== STAGE 4: Disjoint validation (M=100) for drkpv ===
+  [DONE] S4_c0_n1000_s95
+  cfg0 n=1000 SNR=0.95: score=0.153  SER=0.907  [832s]
+  [DONE] S4_c0_n2000_s90
+  cfg0 n=2000 SNR=0.9: score=0.097  SER=0.966  [4729s]
+  [DONE] S4_c0_n2000_s85
+  cfg0 n=2000 SNR=0.85: score=0.124  SER=0.924  [4472s]
+  [DONE] S4_c1_n1000_s95
+  cfg1 n=1000 SNR=0.95: score=0.178  SER=0.936  [485s]
+  [DONE] S4_c1_n2000_s90
+  cfg1 n=2000 SNR=0.9: score=0.165  SER=0.913  [3033s]
+  [DONE] S4_c1_n2000_s85
+  cfg1 n=2000 SNR=0.85: score=0.175  SER=0.868  [5164s]
+
+Stage 4 done in 311.9 min
+
+=== STAGE 5: Regime robustness for drkpv ===
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 26.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+  [DONE] S5_n1000_W80_Z80
+  n=1000 W=0.8 Z=0.8: score=0.087  SER=1.034  cov=0.970  [1024s]
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 21.5% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 15.5% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 21.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+  [DONE] S5_n1000_W95_Z50
+  n=1000 W=0.95 Z=0.5: score=0.192  SER=0.904  cov=0.910  [1040s]
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 17.5% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 24.5% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 22.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 19.5% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+  [DONE] S5_n1000_W50_Z95
+  n=1000 W=0.5 Z=0.95: score=0.101  SER=0.891  cov=0.920  [1100s]
+  [DONE] S5_n2000_W95_Z95
+  n=2000 W=0.95 Z=0.95: score=0.112  SER=0.926  cov=0.930  [6685s]
+
+Stage 5 done in 164.2 min
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase17_blind_tuning.py", line 954, in <module>
+    parser.add_argument("--start_stage", type=int, default=1)
+    ^^^^^^
+  File "C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase17_blind_tuning.py", line 950, in main
+    def main():
+        ^^^^^^^
+  File "C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase17_blind_tuning.py", line 879, in run
+    # Stage 5
+  File "C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\phase17_blind_tuning.py", line 394, in _save_state
+    if isinstance(obj, dict):
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bilel\AppData\Local\Python\pythoncore-3.14-64\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Users\bilel\AppData\Local\Python\pythoncore-3.14-64\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\bilel\AppData\Local\Python\pythoncore-3.14-64\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be str, int, float, bool or None, not tuple
+when serializing dict item 'per_cell'
+when serializing dict item 'winner'

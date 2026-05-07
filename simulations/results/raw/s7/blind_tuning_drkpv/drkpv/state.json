@@ -1,0 +1,85 @@
+{
+  "method": "drkpv",
+  "current_stage": 5,
+  "converged": true,
+  "stage_history": [
+    {
+      "stage": 1,
+      "completed_at": 1777581997.0594683
+    },
+    {
+      "stage": 2,
+      "completed_at": 1777585388.43339
+    },
+    {
+      "stage": 3,
+      "completed_at": 1777601275.8710084
+    },
+    {
+      "stage": 4,
+      "completed_at": 1777620000.0
+    },
+    {
+      "stage": 5,
+      "completed_at": 1777630057.2254398
+    }
+  ],
+  "winner": {
+    "ci": 0,
+    "config": {
+      "lambda_h": 1e-05,
+      "ell_scale": 5.0,
+      "lambda_Q": 1e-05,
+      "clip_factor": null
+    },
+    "mean_score_stage4": 0.143,
+    "per_cell_stage4": {
+      "(1000, 0.95, 0.95)": {
+        "score": 0.153,
+        "SER_ref": 0.907
+      },
+      "(2000, 0.90, 0.90)": {
+        "score": 0.097,
+        "SER_ref": 0.966
+      },
+      "(2000, 0.85, 0.85)": {
+        "score": 0.124,
+        "SER_ref": 0.924
+      }
+    },
+    "per_cell_stage5": {
+      "(1000, 0.80, 0.80)": {
+        "score": 0.087,
+        "SER_ref": 1.034,
+        "cov_ref": 0.97
+      },
+      "(1000, 0.95, 0.50)": {
+        "score": 0.192,
+        "SER_ref": 0.904,
+        "cov_ref": 0.91
+      },
+      "(1000, 0.50, 0.95)": {
+        "score": 0.101,
+        "SER_ref": 0.891,
+        "cov_ref": 0.92
+      },
+      "(2000, 0.95, 0.95)": {
+        "score": 0.112,
+        "SER_ref": 0.926,
+        "cov_ref": 0.93
+      }
+    },
+    "stage5_SER_passed": 4,
+    "stage5_SER_total": 4,
+    "winner_evaporation": false
+  },
+  "envelope": "ROBUST",
+  "drapeaux": [
+    "blind_score_bias_paradox: cfg0 blind winner but worst_bse=0.573 at a=2.2 n=2000/s90",
+    "SER_gate_at_ref_only: Stage3/4/5 used SER@a=2.6 only -- misses bias at a=2.2",
+    "multi_dose_corrected_winner: cfg2 (lambda_h=1e-6, lambda_Q=1e-4) has worst_bse=0.122",
+    "coverage_robust: min_cov=0.880 across all Stage5 cells/doses for cfg0",
+    "inherent_boundary_case_B: bse at a=1.8/3.0 under proxy weakening is irremediable"
+  ],
+  "compute_used_minutes": 705.0
+}

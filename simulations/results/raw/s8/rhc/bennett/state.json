@@ -1,0 +1,100 @@
+{
+  "method": "bennett",
+  "current_stage": 1,
+  "converged": true,
+  "stage_history": [
+    {
+      "stage": 1,
+      "completed_at": 1777710964.0581217
+    },
+    {
+      "stage": 2,
+      "completed_at": 1777718706.724441
+    },
+    {
+      "stage": 3,
+      "completed_at": 1777723109.1844475
+    },
+    {
+      "stage": 1,
+      "completed_at": 1777728514.0326526
+    },
+    {
+      "stage": 2,
+      "completed_at": 1777728514.3493247
+    },
+    {
+      "stage": 3,
+      "completed_at": 1777728514.4872384
+    },
+    {
+      "stage": 4,
+      "completed_at": 1777728703.6549106
+    },
+    {
+      "stage": 5,
+      "completed_at": 1777733506.0924304
+    }
+  ],
+  "current_top_configs": [],
+  "drapeaux": [],
+  "compute_used_minutes": 83.21183888117473,
+  "winner": {
+    "ci": 0,
+    "config": {
+      "m_h": 2000,
+      "m_c": 500,
+      "ell_h": 2.0,
+      "ell_c": 2.0,
+      "lambda_h": 0.0001,
+      "gamma_critic": 0.01,
+      "lambda_r": 0.01,
+      "n_features_r": 500,
+      "ell_scale_r": 3.5
+    },
+    "mean_score": 0.6690477979994194,
+    "ser_in_range_count": 0,
+    "ser_total": 1,
+    "ref_cell_ser": 0.23766250221154578,
+    "ref_cell_ser_ok": false,
+    "per_cell": {
+      "('real',)": {
+        "label": "S4_c0_validation",
+        "config": {
+          "m_h": 2000,
+          "m_c": 500,
+          "ell_h": 2.0,
+          "ell_c": 2.0,
+          "lambda_h": 0.0001,
+          "gamma_critic": 0.01,
+          "lambda_r": 0.01,
+          "n_features_r": 500,
+          "ell_scale_r": 3.5
+        },
+        "diags": {
+          "M_ok": 100,
+          "n": 5735,
+          "kappa_h": 9778.990340494931,
+          "kappa_r": 94.39198903667953,
+          "eff_rank_h": 1.6556988371444594,
+          "eff_rank_r": 0.9896724934081831,
+          "residual_norm_h": 0.0041998109751013825,
+          "residual_norm_r": 6.128198934878498e-16,
+          "RR_ref": 0.002532830865946753,
+          "ESS_min_ratio": 0.9985933773314528,
+          "w_p99_ref": 1.0164229607376307,
+          "SER": 0.23766250221154578,
+          "_bse_ref_NONBLIND": NaN,
+          "_cov_ref_NONBLIND": 0.0,
+          "_bias_ref_NONBLIND": NaN,
+          "lambda_h": 0.0001,
+          "m_h": 2000.0
+        },
+        "score": 0.6690477979994194,
+        "n": 5735,
+        "M": 100
+      }
+    }
+  },
+  "envelope": "PROXY-ROBUST"
+}

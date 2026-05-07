@@ -1,0 +1,108 @@
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+
+=== Wave 5 DISJOINT VALIDATION  M=100, 4 cells ===
+
+--- Cell SNR=0.9, n=1000 ---
+    [REG_KPV_super] n=1000
+  [DONE] REG_KPV_super_M100
+      bse_ref=0.5333  cov=0.880  SER=0.991  [52s]
+    [DRK_KPV_super] n=1000
+  [DONE] DRK_KPV_super_M100
+      bse_ref=0.5741  cov=0.900  SER=0.874  [125s]
+    [BIN_boundary_lr10] n=1000
+  [DONE] BIN_boundary_lr10_M100
+      bse_ref=0.2587  cov=0.900  SER=0.833  [133s]
+    [BIN_W2_champ] n=1000
+  [DONE] BIN_W2_champ_M100
+      bse_ref=0.1599  cov=0.900  SER=0.833  [133s]
+    [BIN_mh2000] n=1000
+  [DONE] BIN_mh2000_M100
+      bse_ref=0.1432  cov=0.900  SER=0.834  [573s]
+
+--- Cell SNR=0.9, n=2000 ---
+    [REG_KPV_super] n=2000
+  [DONE] REG_KPV_super_M100
+      bse_ref=0.2068  cov=0.940  SER=0.404  [224s]
+    [DRK_KPV_super] n=2000
+  [DONE] DRK_KPV_super_M100
+      bse_ref=0.3471  cov=0.880  SER=0.820  [590s]
+    [BIN_boundary_lr10] n=2000
+  [DONE] BIN_boundary_lr10_M100
+      bse_ref=0.2910  cov=0.930  SER=0.314  [172s]
+    [BIN_W2_champ] n=2000
+  [DONE] BIN_W2_champ_M100
+      bse_ref=0.1609  cov=0.920  SER=0.341  [173s]
+    [BIN_mh2000] n=2000
+  [DONE] BIN_mh2000_M100
+      bse_ref=0.1522  cov=0.940  SER=0.297  [605s]
+
+--- Cell SNR=0.95, n=1000 ---
+    [REG_KPV_super] n=1000
+  [DONE] REG_KPV_super_M100
+      bse_ref=0.2921  cov=0.940  SER=0.637  [49s]
+    [DRK_KPV_super] n=1000
+  [DONE] DRK_KPV_super_M100
+      bse_ref=0.2998  cov=0.940  SER=0.927  [123s]
+    [BIN_boundary_lr10] n=1000
+  [DONE] BIN_boundary_lr10_M100
+      bse_ref=0.1786  cov=0.970  SER=0.849  [130s]
+    [BIN_W2_champ] n=1000
+  [DONE] BIN_W2_champ_M100
+      bse_ref=0.1015  cov=0.970  SER=0.821  [130s]
+    [BIN_mh2000] n=1000
+  [DONE] BIN_mh2000_M100
+      bse_ref=0.1104  cov=0.970  SER=0.702  [560s]
+
+--- Cell SNR=0.95, n=2000 ---
+    [REG_KPV_super] n=2000
+  [DONE] REG_KPV_super_M100
+      bse_ref=0.4300  cov=0.970  SER=1.081  [220s]
+    [DRK_KPV_super] n=2000
+  [DONE] DRK_KPV_super_M100
+      bse_ref=0.3314  cov=0.950  SER=1.044  [580s]
+    [BIN_boundary_lr10] n=2000
+  [DONE] BIN_boundary_lr10_M100
+      bse_ref=0.1731  cov=0.970  SER=1.049  [169s]
+    [BIN_W2_champ] n=2000
+  [DONE] BIN_W2_champ_M100
+      bse_ref=0.0500  cov=0.960  SER=1.053  [170s]
+    [BIN_mh2000] n=2000
+  [DONE] BIN_mh2000_M100
+      bse_ref=0.0205  cov=0.960  SER=1.057  [600s]
+  Stage report: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\phase14B_stagewave5_snr90_n1000.md
+  Stage report: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\phase14B_stagewave5_snr90_n2000.md
+  Stage report: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\phase14B_stagewave5_snr95_n1000.md
+  Stage report: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\phase14B_stagewave5_snr95_n2000.md
+
+=== Phase 14B Wave 5 total: 5513s (91.9 min) ===

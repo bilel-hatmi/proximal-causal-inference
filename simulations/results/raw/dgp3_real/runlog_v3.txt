@@ -1,0 +1,92 @@
+
+=== DGP3 REAL estimation (mode=full, M_a=100, M_b=30, g=sin2t) ===
+
+[Bloc A] Calibration sweep, n=1000, M=100, rho_true=0.20, g=sin2t
+  [naive_OLS] (rho_pol-invariant, run once)
+    done in 0.1s
+  [linear_TSLS] (rho_pol-invariant, run once)
+    done in 0.1s
+  [rho_pol=0.02]
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 15.0% of q\u0302 clipped at M_n=26.59. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+    DRKPV           : RMSE_dom=0.3912  CI=[0.3218, 0.4618]  bias^2=0.0074  var=0.1471  cov_pol=0.93  [172s]
+    best_bennett    : RMSE_dom=0.1006  CI=[0.0845, 0.1153]  bias^2=0.0001  var=0.0102  cov_pol=0.66  [79s]
+  [rho_pol=0.05]
+    DRKPV           : RMSE_dom=0.2048  CI=[0.1789, 0.2283]  bias^2=0.0065  var=0.0358  cov_pol=0.97  [161s]
+    best_bennett    : RMSE_dom=0.1237  CI=[0.1094, 0.1386]  bias^2=0.0004  var=0.0151  cov_pol=0.59  [95s]
+  [rho_pol=0.08]
+    DRKPV           : RMSE_dom=0.1896  CI=[0.1682, 0.2097]  bias^2=0.0064  var=0.0298  cov_pol=0.97  [180s]
+    best_bennett    : RMSE_dom=0.1112  CI=[0.0929, 0.1343]  bias^2=0.0007  var=0.0118  cov_pol=0.63  [91s]
+  [rho_pol=0.12]
+    DRKPV           : RMSE_dom=0.1367  CI=[0.1220, 0.1527]  bias^2=0.0045  var=0.0144  cov_pol=0.98  [176s]
+    best_bennett    : RMSE_dom=0.1033  CI=[0.0899, 0.1158]  bias^2=0.0009  var=0.0098  cov_pol=0.66  [96s]
+  [rho_pol=0.15]
+    DRKPV           : RMSE_dom=0.1468  CI=[0.1297, 0.1632]  bias^2=0.0084  var=0.0133  cov_pol=0.94  [181s]
+    best_bennett    : RMSE_dom=0.1115  CI=[0.0965, 0.1253]  bias^2=0.0020  var=0.0106  cov_pol=0.71  [90s]
+  [rho_pol=0.18]
+    DRKPV           : RMSE_dom=0.1421  CI=[0.1215, 0.1621]  bias^2=0.0042  var=0.0162  cov_pol=0.88  [159s]
+    best_bennett    : RMSE_dom=0.1032  CI=[0.0882, 0.1175]  bias^2=0.0012  var=0.0095  cov_pol=0.75  [72s]
+  [rho_pol=0.2]
+    DRKPV           : RMSE_dom=0.1167  CI=[0.1024, 0.1307]  bias^2=0.0020  var=0.0117  cov_pol=0.94  [162s]
+    best_bennett    : RMSE_dom=0.1043  CI=[0.0930, 0.1166]  bias^2=0.0007  var=0.0103  cov_pol=0.77  [84s]
+  [rho_pol=0.22]
+    DRKPV           : RMSE_dom=0.1133  CI=[0.0987, 0.1273]  bias^2=0.0017  var=0.0112  cov_pol=0.89  [172s]
+    best_bennett    : RMSE_dom=0.0960  CI=[0.0809, 0.1115]  bias^2=0.0014  var=0.0079  cov_pol=0.84  [91s]
+  [rho_pol=0.25]
+    DRKPV           : RMSE_dom=0.1114  CI=[0.0974, 0.1264]  bias^2=0.0008  var=0.0117  cov_pol=0.88  [179s]
+    best_bennett    : RMSE_dom=0.1266  CI=[0.1094, 0.1427]  bias^2=0.0052  var=0.0109  cov_pol=0.78  [93s]
+  [rho_pol=0.3]
+    DRKPV           : RMSE_dom=0.1009  CI=[0.0891, 0.1132]  bias^2=0.0000  var=0.0103  cov_pol=0.87  [181s]
+    best_bennett    : RMSE_dom=0.1046  CI=[0.0910, 0.1172]  bias^2=0.0024  var=0.0087  cov_pol=0.83  [90s]
+  [rho_pol=0.4]
+    DRKPV           : RMSE_dom=0.0982  CI=[0.0840, 0.1103]  bias^2=0.0028  var=0.0070  cov_pol=0.70  [154s]
+    best_bennett    : RMSE_dom=0.1428  CI=[0.1235, 0.1620]  bias^2=0.0100  var=0.0105  cov_pol=0.59  [73s]
+  [rho_pol=0.6]
+    DRKPV           : RMSE_dom=0.1532  CI=[0.1389, 0.1672]  bias^2=0.0176  var=0.0060  cov_pol=0.10  [173s]
+    best_bennett    : RMSE_dom=0.1856  CI=[0.1717, 0.1997]  bias^2=0.0278  var=0.0067  cov_pol=0.09  [93s]
+[Bloc B] Robustness across rho_true, n=1000, M=30, g=sin2t
+  rho_true = 0.1
+    rho_pol= 0.02 : RMSE_dom=0.1496  CI=[0.1048, 0.1941]  [27s]
+    rho_pol= 0.05 : RMSE_dom=0.1153  CI=[0.0921, 0.1364]  [27s]
+    rho_pol= 0.08 : RMSE_dom=0.1423  CI=[0.1106, 0.1724]  [26s]
+    rho_pol= 0.12 : RMSE_dom=0.1387  CI=[0.1166, 0.1602]  [25s]
+    rho_pol= 0.15 : RMSE_dom=0.1616  CI=[0.1304, 0.1928]  [25s]
+    rho_pol= 0.18 : RMSE_dom=0.1681  CI=[0.1314, 0.2074]  [27s]
+    rho_pol= 0.20 : RMSE_dom=0.1450  CI=[0.1160, 0.1736]  [28s]
+    rho_pol= 0.22 : RMSE_dom=0.1426  CI=[0.1124, 0.1728]  [25s]
+    rho_pol= 0.25 : RMSE_dom=0.1572  CI=[0.1293, 0.1835]  [25s]
+    rho_pol= 0.30 : RMSE_dom=0.1514  CI=[0.1253, 0.1760]  [26s]
+    rho_pol= 0.40 : RMSE_dom=0.1633  CI=[0.1386, 0.1860]  [26s]
+    rho_pol= 0.60 : RMSE_dom=0.1925  CI=[0.1675, 0.2138]  [25s]
+  rho_true = 0.2
+    rho_pol= 0.02 : RMSE_dom=0.1021  CI=[0.0718, 0.1312]  [25s]
+    rho_pol= 0.05 : RMSE_dom=0.0976  CI=[0.0695, 0.1238]  [25s]
+    rho_pol= 0.08 : RMSE_dom=0.1008  CI=[0.0806, 0.1200]  [25s]
+    rho_pol= 0.12 : RMSE_dom=0.1022  CI=[0.0800, 0.1209]  [25s]
+    rho_pol= 0.15 : RMSE_dom=0.1100  CI=[0.0842, 0.1367]  [25s]
+    rho_pol= 0.18 : RMSE_dom=0.1035  CI=[0.0783, 0.1278]  [25s]
+    rho_pol= 0.20 : RMSE_dom=0.1009  CI=[0.0800, 0.1203]  [25s]
+    rho_pol= 0.22 : RMSE_dom=0.1096  CI=[0.0686, 0.1532]  [25s]
+    rho_pol= 0.25 : RMSE_dom=0.1089  CI=[0.0773, 0.1390]  [25s]
+    rho_pol= 0.30 : RMSE_dom=0.0980  CI=[0.0790, 0.1152]  [26s]
+    rho_pol= 0.40 : RMSE_dom=0.1191  CI=[0.0912, 0.1485]  [27s]
+    rho_pol= 0.60 : RMSE_dom=0.1981  CI=[0.1710, 0.2244]  [26s]
+  rho_true = 0.4
+    rho_pol= 0.02 : RMSE_dom=0.1839  CI=[0.1418, 0.2184]  [25s]
+    rho_pol= 0.05 : RMSE_dom=0.1502  CI=[0.1138, 0.1819]  [25s]
+    rho_pol= 0.08 : RMSE_dom=0.1083  CI=[0.0876, 0.1246]  [25s]
+    rho_pol= 0.12 : RMSE_dom=0.1342  CI=[0.1002, 0.1607]  [23s]
+    rho_pol= 0.15 : RMSE_dom=0.1472  CI=[0.1119, 0.1738]  [22s]
+    rho_pol= 0.18 : RMSE_dom=0.1623  CI=[0.1347, 0.1875]  [22s]
+    rho_pol= 0.20 : RMSE_dom=0.1612  CI=[0.1311, 0.1902]  [22s]
+    rho_pol= 0.22 : RMSE_dom=0.1538  CI=[0.1232, 0.1832]  [21s]
+    rho_pol= 0.25 : RMSE_dom=0.1289  CI=[0.1042, 0.1504]  [21s]
+    rho_pol= 0.30 : RMSE_dom=0.1183  CI=[0.0883, 0.1471]  [21s]
+    rho_pol= 0.40 : RMSE_dom=0.0950  CI=[0.0653, 0.1235]  [21s]
+    rho_pol= 0.60 : RMSE_dom=0.1126  CI=[0.0827, 0.1386]  [21s]
+  Saved: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\raw\dgp3_real/, C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\docs\notes\dgp3_real_data.json
+  Report: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\dgp3_FINAL_v2.md
+
+=== DGP3 REAL total: 3985s (66.4 min) ===

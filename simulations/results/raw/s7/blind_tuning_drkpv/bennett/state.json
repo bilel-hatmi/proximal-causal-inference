@@ -1,0 +1,66 @@
+{
+  "method": "bennett",
+  "current_stage": 5,
+  "converged": true,
+  "stage_history": [
+    {
+      "stage": 1,
+      "completed_at": 1777584904.5575411
+    },
+    {
+      "stage": 2,
+      "completed_at": 1777590377.7309253
+    },
+    {
+      "stage": 3,
+      "completed_at": 1777596851.1942184
+    },
+    {
+      "stage": 4,
+      "completed_at": 1777605317.7336373
+    },
+    {
+      "stage": 5,
+      "completed_at": 1777610837.0
+    }
+  ],
+  "current_top_configs": [],
+  "drapeaux": [
+    "different_from_BIN_mh2000: ell_h/lambda_h/lambda_r/ell_scale_r all differ",
+    "regime_conditional: SER gate 0/4 (envelope = both proxies strong + n>=1000)",
+    "SER_collapse_n2000_SNR95_stage5: SER=0.312 (seed_base=61M) vs SER=0.952 (stage4, n=2000/SNR=0.90)",
+    "winner_evaporation_stage5_reference_cell: SER collapses at n=2000/SNR=0.95 with lambda_h=1e-6"
+  ],
+  "compute_used_minutes": 543.0,
+  "envelope": "REGIME-CONDITIONAL",
+  "winner": {
+    "ci": 0,
+    "config": {
+      "m_h": 2000,
+      "m_c": 500,
+      "ell_h": 1.5,
+      "ell_c": 2.0,
+      "lambda_h": 1e-6,
+      "gamma_critic": 1e-4,
+      "lambda_r": 0.001,
+      "n_features_r": 500,
+      "ell_scale_r": 5.0
+    },
+    "mean_score": 0.3167,
+    "per_cell_stage4": {
+      "(1000, 0.95, 0.95)": {"score": 0.308, "SER": 0.938},
+      "(2000, 0.90, 0.90)": {"score": 0.312, "SER": 0.952},
+      "(2000, 0.85, 0.85)": {"score": 0.330, "SER": 0.815}
+    },
+    "per_cell_stage5": {
+      "(1000, 0.8, 0.8)": {"score": 0.372, "SER": 0.620, "cov": 0.830},
+      "(1000, 0.95, 0.5)": {"score": 0.365, "SER": 0.746, "cov": 0.780},
+      "(1000, 0.5, 0.95)": {"score": 0.378, "SER": 0.542, "cov": 0.700},
+      "(2000, 0.95, 0.95)": {"score": 0.299, "SER": 0.312, "cov": 0.800}
+    },
+    "stage5_SER_passed": 0,
+    "stage5_SER_total": 4,
+    "winner_evaporation": false,
+    "comparison_to_phase14b": "DIFFERENT: ell_h=1.5 vs 2.75, lambda_h=1e-6 vs 1e-5, lambda_r=0.001 vs 0.01, ell_scale_r=5.0 vs 3.5"
+  }
+}

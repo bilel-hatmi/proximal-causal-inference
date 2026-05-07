@@ -1,0 +1,72 @@
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\experiments\dgp2_bias_diagnostics.py:323: RuntimeWarning: Mean of empty slice
+  mise_mean       = float(np.nanmean(mise_arr)),
+========================================================================
+Phase 12B Bennett-lite RFF  --stage D
+========================================================================
+h_KDE=0.2057  ell_W0=1.1399  ell_A0=0.6905  ell_Z0=1.1592
+J_policy_true: ['1.3664', '1.5021', '1.6163', '1.7142']
+
+
+--- Stage D  n=1000  M=100 ---
+  [1/4] REG_Hsuper  n=1000  M=100
+  [DONE] REG_Hsuper_n1000_M100
+    |b|/SE=0.3621  cov=0.9600  SER=1.063  [314s]
+  [2/4] DRK_Hsuper  n=1000  M=100
+  [DONE] DRK_Hsuper_n1000_M100
+    |b|/SE=0.2481  cov=0.9600  SER=0.985  [579s]
+  [3/4] RFF500_e35_L1e2_Hs  n=1000  M=100
+  [DONE] RFF500_e35_L1e2_Hs_n1000_M100
+    |b|/SE=0.3363  cov=0.9200  SER=0.934  [401s]
+  [4/4] RFF250_e25_L1e2_Hs  n=1000  M=100
+  [DONE] RFF250_e25_L1e2_Hs_n1000_M100
+    |b|/SE=0.3380  cov=0.9100  SER=0.867  [314s]
+
+--- Stage D  n=2000  M=100 ---
+  [1/4] REG_Hsuper  n=2000  M=100
+  [DONE] REG_Hsuper_n2000_M100
+    |b|/SE=0.4090  cov=0.9300  SER=1.031  [756s]
+  [2/4] DRK_Hsuper  n=2000  M=100
+  [DONE] DRK_Hsuper_n2000_M100
+    |b|/SE=0.4112  cov=0.9800  SER=1.104  [1986s]
+  [3/4] RFF500_e35_L1e2_Hs  n=2000  M=100
+  [DONE] RFF500_e35_L1e2_Hs_n2000_M100
+    |b|/SE=0.4085  cov=0.9300  SER=0.972  [1034s]
+  [4/4] RFF250_e25_L1e2_Hs  n=2000  M=100
+  [DONE] RFF250_e25_L1e2_Hs_n2000_M100
+    |b|/SE=0.5202  cov=0.8300  SER=0.736  [861s]

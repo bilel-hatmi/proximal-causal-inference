@@ -1,0 +1,119 @@
+
+=== Phase 19B  n=2000  SNR=0.95  J_pt=[1.36640996 1.50212398 1.61629668 1.7142197 ]  h_KDE=0.206 ===
+
+  Config h=under (lambda_h=1e-07) x q=under (lambda_q=1e-07)
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 14.2% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 10.2% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 13.0% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 11.2% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 14.8% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 19.5% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 14.5% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 12.2% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 10.5% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 13.8% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+  [DONE] hunder_qunder_M50
+    bse_ref=0.5071  cov=0.940  SER=1.065  [492s]
+
+  Config h=under (lambda_h=1e-07) x q=super (lambda_q=1e-03)
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+  [DONE] hunder_qsuper_M50
+    bse_ref=0.4624  cov=0.920  SER=1.007  [479s]
+
+  Config h=under (lambda_h=1e-07) x q=over (lambda_q=1e-01)
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+  [DONE] hunder_qover_M50
+    bse_ref=0.4667  cov=0.920  SER=1.003  [480s]
+
+  Config h=super (lambda_h=3e-05) x q=under (lambda_q=1e-07)
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 14.2% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 10.2% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 13.0% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 11.2% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 14.8% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 19.5% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 14.5% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 12.2% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 10.5% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 13.8% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+  [DONE] hsuper_qunder_M50
+    bse_ref=0.4617  cov=0.940  SER=1.105  [426s]
+
+  Config h=super (lambda_h=3e-05) x q=super (lambda_q=1e-03)
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+  [DONE] hsuper_qsuper_M50
+    bse_ref=0.5381  cov=0.920  SER=1.118  [354s]
+
+  Config h=super (lambda_h=3e-05) x q=over (lambda_q=1e-01)
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+  [DONE] hsuper_qover_M50
+    bse_ref=0.6174  cov=0.940  SER=1.163  [330s]
+
+  Config h=over (lambda_h=1e-01) x q=under (lambda_q=1e-07)
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 14.2% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 10.2% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 13.0% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 11.2% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 14.8% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 19.5% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 14.5% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 12.2% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 10.5% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\kpv_bridge.py:664: RuntimeWarning: KPVPolicyBridgeQ: 13.8% of q\u0302 clipped at M_n=31.62. Possible overlap issue — check ESS_grid.
+  warnings.warn(
+  [DONE] hover_qunder_M50
+    bse_ref=1.0524  cov=0.960  SER=1.682  [281s]
+
+  Config h=over (lambda_h=1e-01) x q=super (lambda_q=1e-03)
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+  [DONE] hover_qsuper_M50
+    bse_ref=3.2503  cov=0.020  SER=1.482  [271s]
+
+  Config h=over (lambda_h=1e-01) x q=over (lambda_q=1e-01)
+C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\methods\dr_kernel.py:641: RuntimeWarning: Mean of empty slice
+  float(np.nanmean(cond_M_grid_mean))
+  [DONE] hover_qover_M50
+    bse_ref=4.5907  cov=0.000  SER=1.338  [271s]
+  Report: C:\Users\bilel\OneDrive - University of Cambridge\Part 3\Essays\pci_essay\simulations\results\summaries\phase19B_identifiability.md
+
+=== Phase 19B total: 3383s (56.4 min) ===
