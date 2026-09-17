@@ -1,16 +1,18 @@
 # Proximal Causal Inference
 
 This repository hosts the code that accompanies my Part III essay in
-Mathematical Statistics at the University of Cambridge, *Negative
-Controls to Proximal Bridges: Robust Estimation and Inference with
-Unmeasured Confounding* (Lent 2026). The essay itself is **not yet
-distributed with this repository**: it will be released here once the
-examination process is complete and the supervisor's authorisation
-allows public dissemination. The code, in the meantime, stands on its
-own as a self-contained implementation of the four estimators studied
-in the essay, of the diagnostic metrics that flag their numerical
-fragility, and of the blind tuning protocol used to calibrate them in
-the absence of any oracle reference.
+Mathematical Statistics at the University of Cambridge, *Proximal Causal
+Inference: Theory, Methods, and Applications under Unmeasured
+Confounding* (DPMMS, submitted May 2026; supervised by Dr P. Zhao and
+Prof. Q. Zhao). The essay is public:
+
+- PDF: https://bilelhatmi.vercel.app/docs/part_iii_essay_pci.pdf
+- Project page: https://bilelhatmi.vercel.app/projects/part-iii-dissertation
+
+The code stands on its own as a self-contained implementation of the
+four estimators studied in the essay, of the diagnostic metrics that
+flag their numerical fragility, and of the blind tuning protocol used to
+calibrate them in the absence of any oracle reference.
 
 ## Scope
 
